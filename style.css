@@ -5,3 +5,7 @@ body {
     background-color: white;
 }
 
+#photo-split img {
+    border-radius: 50%;
+}
+

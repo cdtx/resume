@@ -1,7 +1,12 @@
 body {
     font-family: 'Hind';
+    font-size: large;
     background-color: #DBDBDB;
 }
+p {
+    margin: 0 0 0 0;
+}
+
 #main {
     background-color: white;
 }
@@ -10,3 +15,14 @@ body {
     border-radius: 50%;
 }
 
+.resume-experience:first-of-type {
+
+}
+.resume-experience {
+    border-width: 5mm;
+    border-style: solid;
+    border-color:  green;
+}
+.resume-experience:last-of-type {
+
+}

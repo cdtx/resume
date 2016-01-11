@@ -8,7 +8,7 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,12 +19,34 @@
 
     <!-- Import font -->
     <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'></link>
-
+    <!-- Custom style -->
+    <link href='style.css' rel='stylesheet' type='text/css'></link>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
+
+    <style>
+        body {
+        }
+        #resume-col-left {
+            background-color: #D2D2D2;
+        }
+        #resume-col-right {
+            background-color: #FEFEFE;
+        }
+
+        .top-of-page {
+            position: relative;
+            top: 0px;
+        }
+
+        .bottom-of-page {
+            position: relative;
+            bottom: 0px;
+        }
+    </style>
   </head>
   <body>
     <!-- debug -->
@@ -34,109 +56,88 @@
     <div class="visible-lg-block">lg</div>
     <!-- end -->
 
-    <section id="main">
-        <div class="container-fluid">
-            <div class="row" id="general-info">
-                <div class="col-xs-offset-0 col-xs-3 
-                            col-sm-offset-0 col-sm-3 
-                            col-md-offset-0 col-md-3 
-                            col-lg-offset-0 col-lg-3">
-                    <p class="text-left">
-                        Cyril DUTRIEUX<br/>
-                        Living in Mallemort (13)<br/>
-                    </p>
+    <div id="main" class="container-fluid" style="height: inherit;">
+        <div class="row" style="height: inherit;">
+            <div id="resume-col-left" class="col-lg-4" style="height: inherit;">
 
+                <!-- left column content -->
+                <div class="top-of-page">
+                    <p>Cyril</p>
+                    <p>DUTRIEUX</p>
+                    <img src="build.png" class="avatar img-responsive center-block"></img>
                 </div>
-                <div class="col-xs-offset-6 col-xs-3 
-                            col-sm-offset-6 col-sm-3 
-                            col-md-offset-6 col-md-3 
-                            col-lg-offset-6 col-lg-3">
-                    <p class="text-right">
-                        Permis B<br/>
-                        Maried<br/>
-                    </p>
-                </div>
-            </div>
-            <div class="row" id="photo-split">
-                <div class="col-xs-offset-0 col-xs-3 
-                            col-sm-offset-0 col-sm-3 
-                            col-md-offset-0 col-md-3 
-                            col-lg-offset-0 col-lg-3">
+
+                <div class="bottom-of-page">
                     <p class="text-left">
                         cyril.dutrieux@gmail.com<br/>
-                        +336 81 21 92 48
-                    </p>
-                </div>
-                <div class="col-xs-offset-2 col-xs-2 
-                            col-sm-offset-2 col-sm-2 
-                            col-md-offset-2 col-md-2 
-                            col-lg-offset-2 col-lg-2">
-                    <img src="build.png" class="img-responsive center-block"><img>
-                </div>
-                <div class="col-xs-offset-2 col-xs-3 
-                            col-sm-offset-2 col-sm-3 
-                            col-md-offset-2 col-md-3 
-                            col-lg-offset-2 col-lg-3">
-                    <p class="text-right">
+                        +336 81 21 92 48</br>
                         1 child
                     </p>
                 </div>
+
             </div>
-            <!-- Experiences -->
-                <div class="row resume-experience">
-                    <div class="resume-experience-logo
-                                col-xs-offset-0 col-xs-2 
-                                col-sm-offset-0 col-sm-2 
-                                col-md-offset-0 col-md-2 
-                                col-lg-offset-0 col-lg-2">
-                        <img src="build.png" class="img-responsive center-block"></img>
-                        <p class="text-center">Inside Secure</p>
-                    </div>
-                    <div class="resume-experience-description
-                                col-xs-offset-0 col-xs-10 
-                                col-sm-offset-0 col-sm-10 
-                                col-md-offset-0 col-md-10 
-                                col-lg-offset-0 col-lg-10">
-                        <p class="text-right">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
-                        </p>
-                    </div>
-                </div>                
-                <div class="row resume-experience">
-                    <div class="col-xs-offset-0 col-xs-2 
-                                col-sm-offset-0 col-sm-2 
-                                col-md-offset-0 col-md-2 
-                                col-lg-offset-0 col-lg-2">
-                        <img src="build.png" class="img-responsive center-block"></img>
-                        <p class="text-center">Inside Secure</p>
-                    </div>
-                    <div class="col-xs-offset-0 col-xs-10 
-                                col-sm-offset-0 col-sm-10 
-                                col-md-offset-0 col-md-10 
-                                col-lg-offset-0 col-lg-10">
-                        <p class="text-right">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
-                        </p>
-                    </div>
-                </div>                
-                <div class="row resume-experience">
-                    <div class="col-xs-offset-0 col-xs-2 
-                                col-sm-offset-0 col-sm-2 
-                                col-md-offset-0 col-md-2 
-                                col-lg-offset-0 col-lg-2">
-                        <img src="build.png" class="img-responsive center-block"></img>
-                        <p class="text-center">Alstom transport</p>
-                    </div>
-                    <div class="col-xs-offset-0 col-xs-10 
-                                col-sm-offset-0 col-sm-10 
-                                col-md-offset-0 col-md-10 
-                                col-lg-offset-0 col-lg-10">
-                        <p class="text-right">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
-                        </p>
-                    </div>
-                </div>                
-        </div>
-    </section>
+            <div id="resume-col-right" class="col-lg-8" style="height: inherit;">
+
+                <!-- right column content -->
+
+                <!-- Experiences -->
+                <div class="container-fluid">
+                    <div class="row resume-experience">
+                        <div class="resume-experience-logo
+                                    col-xs-offset-0 col-xs-2 
+                                    col-sm-offset-0 col-sm-2 
+                                    col-md-offset-0 col-md-2 
+                                    col-lg-offset-0 col-lg-2">
+                            <img src="build.png" class="img-responsive center-block"></img>
+                            <p class="text-center">Inside Secure</p>
+                        </div>
+                        <div class="resume-experience-description
+                                    col-xs-offset-0 col-xs-10 
+                                    col-sm-offset-0 col-sm-10 
+                                    col-md-offset-0 col-md-10 
+                                    col-lg-offset-0 col-lg-10">
+                            <p class="text-right">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
+                            </p>
+                        </div>
+                    </div>                
+                    <div class="row resume-experience">
+                        <div class="col-xs-offset-0 col-xs-2 
+                                    col-sm-offset-0 col-sm-2 
+                                    col-md-offset-0 col-md-2 
+                                    col-lg-offset-0 col-lg-2">
+                            <img src="build.png" class="img-responsive center-block"></img>
+                            <p class="text-center">Inside Secure</p>
+                        </div>
+                        <div class="col-xs-offset-0 col-xs-10 
+                                    col-sm-offset-0 col-sm-10 
+                                    col-md-offset-0 col-md-10 
+                                    col-lg-offset-0 col-lg-10">
+                            <p class="text-right">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
+                            </p>
+                        </div>
+                    </div>                
+                    <div class="row resume-experience">
+                        <div class="col-xs-offset-0 col-xs-2 
+                                    col-sm-offset-0 col-sm-2 
+                                    col-md-offset-0 col-md-2 
+                                    col-lg-offset-0 col-lg-2">
+                            <img src="build.png" class="img-responsive center-block"></img>
+                            <p class="text-center">Alstom transport</p>
+                        </div>
+                        <div class="col-xs-offset-0 col-xs-10 
+                                    col-sm-offset-0 col-sm-10 
+                                    col-md-offset-0 col-md-10 
+                                    col-lg-offset-0 col-lg-10">
+                            <p class="text-right">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
+                            </p>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </div>    
+    </div>
   </body>
 </html>

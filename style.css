@@ -1,17 +1,11 @@
 body {
+    // width: 210mm;
+    // height: 297mm;
     font-family: 'Hind';
-    // font-size: large;
     background-color: #DBDBDB;
 }
-p {
-    margin: 0 0 0 0;
-}
 
-#main {
-    background-color: white;
-}
-
-#photo-split img {
+.avatar {
     border-radius: 50%;
 }
 

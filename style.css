@@ -5,6 +5,32 @@ body {
     background-color: #DBDBDB;
 }
 
+#resume-col-left {
+    background-color: #D2D2D2;
+}
+#resume-col-right {
+    background-color: #FEFEFE;
+}
+
+.top-of-page {
+    // position: absolute;
+    // top: 0px;
+}
+
+.bottom-of-page {
+    // position: absolute;
+    // bottom: 0px;
+}
+
+
+
+#resume-first-name {
+    font-size: 30;
+}
+#resume-last-name {
+    font-size: 20;
+}
+
 .avatar {
     border-radius: 50%;
 }

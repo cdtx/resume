@@ -27,26 +27,6 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
 
-    <style>
-        body {
-        }
-        #resume-col-left {
-            background-color: #D2D2D2;
-        }
-        #resume-col-right {
-            background-color: #FEFEFE;
-        }
-
-        .top-of-page {
-            position: relative;
-            top: 0px;
-        }
-
-        .bottom-of-page {
-            position: relative;
-            bottom: 0px;
-        }
-    </style>
   </head>
   <body>
     <!-- debug -->
@@ -59,12 +39,22 @@
     <div id="main" class="container-fluid" style="height: inherit;">
         <div class="row" style="height: inherit;">
             <div id="resume-col-left" class="col-lg-4" style="height: inherit;">
-
                 <!-- left column content -->
+
                 <div class="top-of-page">
-                    <p>Cyril</p>
-                    <p>DUTRIEUX</p>
-                    <img src="build.png" class="avatar img-responsive center-block"></img>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <p id="resume-first-name">Cyril</p>
+                        </div>
+                        <div class="row">
+                            <p id="resume-last-name">DUTRIEUX</p>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-offset-3 col-lg-6">
+                                <img src="build.png" class="avatar img-responsive center-block"></img>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="bottom-of-page">
@@ -77,7 +67,6 @@
 
             </div>
             <div id="resume-col-right" class="col-lg-8" style="height: inherit;">
-
                 <!-- right column content -->
 
                 <!-- Experiences -->

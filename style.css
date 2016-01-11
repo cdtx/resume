@@ -1,6 +1,6 @@
 body {
     font-family: 'Hind';
-    font-size: large;
+    // font-size: large;
     background-color: #DBDBDB;
 }
 p {
@@ -15,14 +15,28 @@ p {
     border-radius: 50%;
 }
 
+#resume-experiences {
+    // border-width: 1px;
+    // border-style: solid;
+    // border-color:  green;
+}
 .resume-experience:first-of-type {
-
+    
 }
 .resume-experience {
-    border-width: 5mm;
+    margin: -1px -1px 0 0;
+    border-width: 1px;
     border-style: solid;
     border-color:  green;
 }
 .resume-experience:last-of-type {
+
+}
+
+.resume-experience-logo {
+
+}
+
+.resume-experience-description {
 
 }

@@ -6,48 +6,39 @@ body {
 }
 
 #resume-col-left {
-    background-color: #D2D2D2;
 }
 #resume-col-right {
-    background-color: #FEFEFE;
-}
-
-.top-of-page {
-    // position: absolute;
-    // top: 0px;
-}
-
-.bottom-of-page {
-    // position: absolute;
-    // bottom: 0px;
 }
 
 
 
-#resume-first-name {
-    font-size: 30;
+#resume-photo-name {
+    background-color: #323232;
+    color: #B3B3B3;
 }
-#resume-last-name {
-    font-size: 20;
+#resume-my-name {
+    font-size: 600%;
 }
-
+#resume-short-description {
+    font-size: 500%;
+}
 .avatar {
     border-radius: 50%;
 }
 
-#resume-experiences {
-    // border-width: 1px;
-    // border-style: solid;
-    // border-color:  green;
+
+#resume-my-infos {
+    background-color: #404353;
+    color: #B3B3B3;
 }
+
+
+
 .resume-experience:first-of-type {
     
 }
 .resume-experience {
-    margin: -1px -1px 0 0;
-    border-width: 1px;
-    border-style: solid;
-    border-color:  green;
+    font-size: 120%;
 }
 .resume-experience:last-of-type {
 

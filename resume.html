@@ -19,6 +19,10 @@
 
     <!-- Import font -->
     <link href='https://fonts.googleapis.com/css?family=Hind' rel='stylesheet' type='text/css'></link>
+    <!-- Import icons -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"></link>
+    <!-- Import country flags -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/1.0.0/css/flag-icon.min.css" rel="stylesheet" type="text/css"></link>
     <!-- Custom style -->
     <link href='style.css' rel='stylesheet' type='text/css'></link>
 
@@ -41,28 +45,32 @@
             <div id="resume-col-left" class="col-lg-4" style="height: inherit;">
                 <!-- left column content -->
 
-                <div class="top-of-page">
+                <div id="resume-photo-name">
                     <div class="container-fluid">
-                        <div class="row">
-                            <p id="resume-first-name">Cyril</p>
-                        </div>
-                        <div class="row">
-                            <p id="resume-last-name">DUTRIEUX</p>
-                        </div>
                         <div class="row">
                             <div class="col-lg-offset-3 col-lg-6">
                                 <img src="build.png" class="avatar img-responsive center-block"></img>
                             </div>
                         </div>
+                        <p id="resume-my-name" class="text-center">Cyril DUTRIEUX</p>
+                        <p id="resume-short-description" class="text-center">Software engineer</p>
                     </div>
                 </div>
 
-                <div class="bottom-of-page">
-                    <p class="text-left">
-                        cyril.dutrieux@gmail.com<br/>
-                        +336 81 21 92 48</br>
-                        1 child
-                    </p>
+                <div id="resume-my-infos">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <h2 class="col-lg-11"><i class="col-lg-1 fa fa-check"></i>ABOUT ME</h2>
+                        </div>
+                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.</p>
+                        <div class="row">
+                            <h2 class="col-lg-11"><i class="col-lg-1 fa fa-envelope"></i>CONTACT ME</h2>
+                        </div>
+                        <p id="resume-contact-me" class="text-left">
+                            cyril.dutrieux@gmail.com<br/>
+                            +336 81 21 92 48</br>
+                        </p>
+                    </div>
                 </div>
 
             </div>
@@ -70,60 +78,130 @@
                 <!-- right column content -->
 
                 <!-- Experiences -->
-                <div class="container-fluid">
-                    <div class="row resume-experience">
-                        <div class="resume-experience-logo
-                                    col-xs-offset-0 col-xs-2 
-                                    col-sm-offset-0 col-sm-2 
-                                    col-md-offset-0 col-md-2 
-                                    col-lg-offset-0 col-lg-2">
-                            <img src="build.png" class="img-responsive center-block"></img>
-                            <p class="text-center">Inside Secure</p>
+                <div id="resume-experiences">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <h1 class="col-lg-11"><i class="col-lg-1 fa fa-tasks"></i>WORK EXPERIENCE</h1>
                         </div>
-                        <div class="resume-experience-description
-                                    col-xs-offset-0 col-xs-10 
-                                    col-sm-offset-0 col-sm-10 
-                                    col-md-offset-0 col-md-10 
-                                    col-lg-offset-0 col-lg-10">
-                            <p class="text-right">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
-                            </p>
+                        <div class="row resume-experience">
+                            <div class="row">
+                                <h2 class="col-lg-offset-2">Job 1</h2>
+                            </div>
+                            <div class="row">
+                                <div class="resume-experience-logo col-lg-offset-1 col-lg-1">
+                                    <img src="build.png" class="img-responsive center-block"></img>
+                                    <p class="text-center">Inside Secure</p>
+                                </div>
+                                <div class="resume-experience-description col-lg-offset-0 col-lg-9">
+                                    <p class="text-justify">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>                
+                        <div class="row resume-experience">
+                            <div class="row">
+                                <h2 class="col-lg-offset-2">Job 1</h2>
+                            </div>
+                            <div class="row">
+                                <div class="resume-experience-logo col-lg-offset-1 col-lg-1">
+                                    <img src="build.png" class="img-responsive center-block"></img>
+                                    <p class="text-center">Inside Secure</p>
+                                </div>
+                                <div class="resume-experience-description col-lg-offset-0 col-lg-9">
+                                    <p class="text-justify">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>                
+                        <div class="row resume-experience">
+                            <div class="row">
+                                <h2 class="col-lg-offset-2">Job 1</h2>
+                            </div>
+                            <div class="row">
+                                <div class="resume-experience-logo col-lg-offset-1 col-lg-1">
+                                    <img src="build.png" class="img-responsive center-block"></img>
+                                    <p class="text-center">Inside Secure</p>
+                                </div>
+                                <div class="resume-experience-description col-lg-offset-0 col-lg-9">
+                                    <p class="text-justify">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>                
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div id="resume-education">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <h1 class="col-lg-11"><i class="col-lg-1 fa fa-graduation-cap"></i>EDUCATION</h1>
                         </div>
-                    </div>                
-                    <div class="row resume-experience">
-                        <div class="col-xs-offset-0 col-xs-2 
-                                    col-sm-offset-0 col-sm-2 
-                                    col-md-offset-0 col-md-2 
-                                    col-lg-offset-0 col-lg-2">
-                            <img src="build.png" class="img-responsive center-block"></img>
-                            <p class="text-center">Inside Secure</p>
+                        <div class="row resume-experience">
+                            <div class="row">
+                                <h2 class="col-lg-offset-2">Job 1</h2>
+                            </div>
+                            <div class="row">
+                                <div class="resume-experience-logo col-lg-offset-1 col-lg-1">
+                                    <img src="build.png" class="img-responsive center-block"></img>
+                                    <p class="text-center">Inside Secure</p>
+                                </div>
+                                <div class="resume-experience-description col-lg-offset-0 col-lg-9">
+                                    <p class="text-justify">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>                
+                        <div class="row resume-experience">
+                            <div class="row">
+                                <h2 class="col-lg-offset-2">Job 1</h2>
+                            </div>
+                            <div class="row">
+                                <div class="resume-experience-logo col-lg-offset-1 col-lg-1">
+                                    <img src="build.png" class="img-responsive center-block"></img>
+                                    <p class="text-center">Inside Secure</p>
+                                </div>
+                                <div class="resume-experience-description col-lg-offset-0 col-lg-9">
+                                    <p class="text-justify">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>                
+                        <div class="row resume-experience">
+                            <div class="row">
+                                <h2 class="col-lg-offset-2">Job 1</h2>
+                            </div>
+                            <div class="row">
+                                <div class="resume-experience-logo col-lg-offset-1 col-lg-1">
+                                    <img src="build.png" class="img-responsive center-block"></img>
+                                    <p class="text-center">Inside Secure</p>
+                                </div>
+                                <div class="resume-experience-description col-lg-offset-0 col-lg-9">
+                                    <p class="text-justify">
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>                
+                    </div>
+                </div>
+
+                <!-- Languages -->
+                <div id="resume-education">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <h1 class="col-lg-11"><i class="col-lg-1 fa fa-globe"></i>LANGUAGES</h1>
                         </div>
-                        <div class="col-xs-offset-0 col-xs-10 
-                                    col-sm-offset-0 col-sm-10 
-                                    col-md-offset-0 col-md-10 
-                                    col-lg-offset-0 col-lg-10">
-                            <p class="text-right">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
-                            </p>
+                        <div class="row">
+                            <span class="col-lg-offset-2 col-lg-1 flag-icon flag-icon-gb"></span>
+                            <span class="col-lg-offset-1 col-lg-1 flag-icon flag-icon-fr"></span>
                         </div>
-                    </div>                
-                    <div class="row resume-experience">
-                        <div class="col-xs-offset-0 col-xs-2 
-                                    col-sm-offset-0 col-sm-2 
-                                    col-md-offset-0 col-md-2 
-                                    col-lg-offset-0 col-lg-2">
-                            <img src="build.png" class="img-responsive center-block"></img>
-                            <p class="text-center">Alstom transport</p>
-                        </div>
-                        <div class="col-xs-offset-0 col-xs-10 
-                                    col-sm-offset-0 col-sm-10 
-                                    col-md-offset-0 col-md-10 
-                                    col-lg-offset-0 col-lg-10">
-                            <p class="text-right">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
-                            </p>
-                        </div>
-                    </div>                
+                    </div>
                 </div>
             </div>
         </div>    

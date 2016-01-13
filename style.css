@@ -4,6 +4,9 @@ body {
     font-family: 'Hind';
     background-color: #DBDBDB;
 }
+i {
+    // padding-right: 2%;
+}
 
 #resume-col-left {
 }
@@ -51,3 +54,11 @@ body {
 .resume-experience-description {
 
 }
+
+.resume-language-cap {
+    padding: 0 0 0 0;
+}
+.resume-language-cap p {
+    margin: 0 0 0 0;
+}
+

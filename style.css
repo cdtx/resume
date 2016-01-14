@@ -3,8 +3,6 @@ div {
 }
 
 body {
-    // width: 210mm;
-    // height: 297mm;
     font-family: 'Hind';
     background-color: #DBDBDB;
 }
@@ -21,13 +19,30 @@ h1>i, h2>i {
     padding: 0 0 0 0;
     background-color: #404353;
     display: table-cell;    
-    float: none;
 }
 #resume-col-right {
     padding: 0 0 0 0;
     background-color: #F7F7F7;
     display: table-cell;    
-    float: none;
+}
+
+@media(min-width:992px){
+    #resume-col-left {
+        float: none;
+    }
+    #resume-col-right {
+        float: none;
+    }
+    
+}
+@media(min-width:1200px){
+    #resume-col-left {
+        float: none;
+    }
+    #resume-col-right {
+        float: none;
+    }
+
 }
 
 

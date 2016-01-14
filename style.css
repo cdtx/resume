@@ -25,27 +25,14 @@ h1>i, h2>i {
     background-color: #F7F7F7;
     display: table-cell;    
 }
-
-@media(min-width:992px){
-    #resume-col-left {
-        float: none;
-    }
+@media(min-width:992px) {
     #resume-col-right {
         float: none;
     }
-    
-}
-@media(min-width:1200px){
     #resume-col-left {
         float: none;
     }
-    #resume-col-right {
-        float: none;
-    }
-
 }
-
-
 
 #resume-photo-name {
     background-color: #323232;

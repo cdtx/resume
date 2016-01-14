@@ -1,16 +1,33 @@
+div {
+    height: inherit;
+}
+
 body {
     // width: 210mm;
     // height: 297mm;
     font-family: 'Hind';
     background-color: #DBDBDB;
 }
-i {
-    // padding-right: 2%;
+h1>i, h2>i {
+    padding-right: 2%;
 }
 
+// Column management, tricky part is to have both columns the same size
+// http://stackoverflow.com/questions/25213171/how-to-make-bootstrap-column-height-to-100-row-height
+#main {
+    display: table;
+}
 #resume-col-left {
+    padding: 0 0 0 0;
+    background-color: #404353;
+    display: table-cell;    
+    float: none;
 }
 #resume-col-right {
+    padding: 0 0 0 0;
+    background-color: #F7F7F7;
+    display: table-cell;    
+    float: none;
 }
 
 

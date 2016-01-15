@@ -24,11 +24,12 @@ h1>i, h2>i {
     display: table-cell;    
 }
 @media(min-width:992px) {
-    #resume-col-right {
-        float: none;
-    }
     #resume-col-left {
         float: none;
+    }
+    #resume-col-right {
+        float: none;
+        padding-left: 0;
     }
 }
 

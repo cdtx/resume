@@ -13,10 +13,12 @@ h1>i, h2>i {
     display: table;
 }
 #resume-col-left {
+    padding: 0 0 0 0;
     background-color: #404353;
     display: table-cell;    
 }
 #resume-col-right {
+    padding: 0 0 0 0;
     background-color: #F7F7F7;
     display: table-cell;    
 }

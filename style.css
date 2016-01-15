@@ -13,12 +13,10 @@ h1>i, h2>i {
     display: table;
 }
 #resume-col-left {
-    padding: 0 0 0 0;
     background-color: #404353;
     display: table-cell;    
 }
 #resume-col-right {
-    padding: 0 0 0 0;
     background-color: #F7F7F7;
     display: table-cell;    
 }
@@ -34,6 +32,9 @@ h1>i, h2>i {
 #resume-photo-name {
     background-color: #323232;
     color: #B3B3B3;
+}
+#resume-photo-name img {
+    padding-top: 10%;
 }
 #resume-my-name {
     font-size: 600%;

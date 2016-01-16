@@ -41,6 +41,8 @@ h1>i, h2>i {
 }
 
 #resume-photo-name {
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: #323232;
     color: #B3B3B3;
 }
@@ -59,6 +61,8 @@ h1>i, h2>i {
 
 
 #resume-my-infos {
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: #404353;
     color: #B3B3B3;
 }
@@ -69,6 +73,8 @@ h1>i, h2>i {
     
 }
 .resume-experience {
+    padding-left: 15px;
+    padding-right: 15px;
     font-size: 120%;
 }
 .resume-experience:last-of-type {

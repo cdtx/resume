@@ -1,7 +1,7 @@
-
 body {
     font-family: 'Hind';
-    background-color: #DBDBDB;
+    background-color: #DBDBDB !important;
+    -webkit-print-color-adjust:exact;
 }
 h1>i, h2>i {
     padding-right: 2%;
@@ -22,12 +22,14 @@ h1>i, h2>i {
 #resume-col-left {
     padding-right: 0;
     padding-left: 0;
-    background-color: #404353;
+    background-color: #404353 !important;
+    -webkit-print-color-adjust:exact;
     display: table-cell;    
 }
 #resume-col-right {
     padding-right: 0;
-    background-color: #F7F7F7;
+    background-color: #F7F7F7 !important;
+    -webkit-print-color-adjust:exact;
     display: table-cell;    
 }
 @media(min-width:992px) {
@@ -43,7 +45,8 @@ h1>i, h2>i {
 #resume-photo-name {
     padding-left: 15px;
     padding-right: 15px;
-    background-color: #323232;
+    background-color: #323232 !important;
+    -webkit-print-color-adjust:exact;
     color: #B3B3B3;
 }
 #resume-photo-name img {
@@ -63,7 +66,8 @@ h1>i, h2>i {
 #resume-my-infos {
     padding-left: 15px;
     padding-right: 15px;
-    background-color: #404353;
+    background-color: #404353 !important;
+    -webkit-print-color-adjust:exact;
     color: #B3B3B3;
 }
 

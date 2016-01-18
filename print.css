@@ -1,20 +1,50 @@
+* {
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    -webkit-transition: none !important;
+    transition:none!important;
+}
 body {
     width: 210mm;
-    height: 297mm;
+    height: 302.7mm;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
 }
 
 @page {
-    margin: 0;
+    // size: 210mm 297mm;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
     border: none;
 }
 
+#main {
+    display: initial;
+}
 #resume-col-left {
-    height: 297mm;
+    position: initial;
+    display: initial;
+    height: 302.7mm;
 }
 #resume-col-right {
-    height: 297mm;
+    position: initial;
+    background-color: white !important;
+    display: initial;
+    height: 302.7mm;
+}
+#resume-photo-name {
+    height: 100mm;
 }
 #resume-my-infos {
-    position: absolute;
-    bottom: 0;
+    height: 197mm;
+    // position: absolute;
+    // bottom: 0;
 }
+
+#resume-my-name {
+    font-size: 300%;
+}
+#resume-short-description {
+    font-size: 300%;
+}
+

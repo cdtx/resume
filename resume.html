@@ -8,6 +8,7 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css">
+    <link rel="stylesheet" href="col-height.css">
     <link rel="stylesheet" href="bootstrap-print.css" media="print">
     <!-- <link rel="stylesheet" href="style.css"> -->
 
@@ -44,196 +45,198 @@
     -->
     <!-- end -->
 
-    <div id="main" class="container-fluid" style="display: table; padding-left:0; padding-right:0">
+    <div id="main" class="container-fluid" style="padding-left:0; padding-right:0">
         <div class="row">
-            <div id="resume-col-left" class="col-xs-12 col-md-4 col-p-4">
-                <!-- left column content -->
+            <div class="row-height">
+                <div id="resume-col-left" class="col-xs-12 col-md-4 col-md-height col-md-top col-p-4">
+                    <!-- left column content -->
 
-                <div id="resume-photo-name">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="    col-xs-offset-2 col-xs-8
-                                            col-md-offset-3 col-p-offset-3 col-md-6 col-p-6">
-                                <img src="avatar.jpg" class="avatar img-responsive center-block"></img>
+                    <div id="resume-photo-name">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <div class="    col-xs-offset-2 col-xs-8
+                                                col-md-offset-3 col-p-offset-3 col-md-6 col-p-6">
+                                    <img src="avatar.jpg" class="avatar img-responsive center-block"></img>
+                                </div>
                             </div>
+                            <div class="row">
+                                <p id="resume-my-name" class="text-center col-xs-12 col-md-12 col-p-12">Cyril DUTRIEUX</p>
+                            </div>
+                            <p id="resume-short-description" class="text-center">Software engineer</p>
                         </div>
-                        <div class="row">
-                            <p id="resume-my-name" class="text-center col-xs-12 col-md-12 col-p-12">Cyril DUTRIEUX</p>
-                        </div>
-                        <p id="resume-short-description" class="text-center">Software engineer</p>
                     </div>
-                </div>
 
-                <div id="resume-my-infos">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <h2 class="col-xs-11 col-md-11 col-p-11"><i class="fa fa-check"></i>ABOUT ME</h2>
+                    <div id="resume-my-infos">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h2 class="col-xs-11 col-md-11 col-p-11"><i class="fa fa-check"></i>ABOUT ME</h2>
+                            </div>
+                            <div class="row">
+                                <p class="text-justify col-xs-12 col-md-12 col-p-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.</p>
+                            </div>
+                            <div class="row">
+                                <h2 class="col-xs-11 col-md-11 col-p-11"><i class="fa fa-envelope"></i>CONTACT ME</h2>
+                            </div>
+                            <p id="resume-contact-me" class="text-left">
+                                cyril.dutrieux@gmail.com<br/>
+                                +336 81 21 92 48</br>
+                            </p>
                         </div>
-                        <div class="row">
-                            <p class="text-justify col-xs-12 col-md-12 col-p-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.</p>
-                        </div>
-                        <div class="row">
-                            <h2 class="col-xs-11 col-md-11 col-p-11"><i class="fa fa-envelope"></i>CONTACT ME</h2>
-                        </div>
-                        <p id="resume-contact-me" class="text-left">
-                            cyril.dutrieux@gmail.com<br/>
-                            +336 81 21 92 48</br>
-                        </p>
                     </div>
+
                 </div>
+                <div id="resume-col-right" class="col-xs-12 col-md-8 col-md-height col-md-top col-p-8" >
+                    <!-- right column content -->
 
-            </div>
-            <div id="resume-col-right" class="col-xs-12 col-md-8 col-p-8" >
-                <!-- right column content -->
-
-                <!-- Experiences -->
-                <div id="resume-experiences">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <h1 class="col-xs-11 col-md-11 col-p-11"><i class="fa fa-tasks"></i>WORK EXPERIENCE</h1>
+                    <!-- Experiences -->
+                    <div id="resume-experiences">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h1 class="col-xs-11 col-md-11 col-p-11"><i class="fa fa-tasks"></i>WORK EXPERIENCE</h1>
+                            </div>
+                            <div class="resume-experience">
+                                <div class="row">
+                                    <h2 class="col-xs-offset-2 col-xs-10 col-md-offset-2 col-p-offset-2 col-md-10 col-p-10">Job 1</h2>
+                                </div>
+                                <div class="row">
+                                    <div class="resume-experience-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-1 col-p-1">
+                                        <img src="insidesecure.png" class="img-responsive center-block"></img>
+                                    </div>
+                                    <div class="clearfix visible-xs-block visible-sm-block"></div>
+                                    <div class="resume-experience-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-11 col-p-11">
+                                        <p class="text-justify">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>                
+                            <div class="resume-experience">
+                                <div class="row">
+                                    <h2 class="col-xs-offset-2 col-xs-10 col-md-offset-2 col-p-offset-2 col-md-10 col-p-10">Job 1</h2>
+                                </div>
+                                <div class="row">
+                                    <div class="resume-experience-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-1 col-p-1">
+                                        <img src="insidesecure.png" class="img-responsive center-block"></img>
+                                    </div>
+                                    <div class="clearfix visible-xs-block visible-sm-block"></div>
+                                    <div class="resume-experience-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-11 col-p-11">
+                                        <p class="text-justify">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>                
+                            <div class="resume-experience">
+                                <div class="row">
+                                    <h2 class="col-xs-offset-2 col-xs-10 col-md-offset-2 col-p-offset-2 col-md-10 col-p-10">Job 1</h2>
+                                </div>
+                                <div class="row">
+                                    <div class="resume-experience-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-1 col-p-1">
+                                        <img src="insidesecure.png" class="img-responsive center-block"></img>
+                                    </div>
+                                    <div class="clearfix visible-xs-block visible-sm-block"></div>
+                                    <div class="resume-experience-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-11 col-p-11">
+                                        <p class="text-justify">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>                
                         </div>
-                        <div class="resume-experience">
-                            <div class="row">
-                                <h2 class="col-xs-offset-2 col-xs-10 col-md-offset-2 col-p-offset-2 col-md-10 col-p-10">Job 1</h2>
-                            </div>
-                            <div class="row">
-                                <div class="resume-experience-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-1 col-p-1">
-                                    <img src="insidesecure.png" class="img-responsive center-block"></img>
-                                </div>
-                                <div class="clearfix visible-xs-block visible-sm-block"></div>
-                                <div class="resume-experience-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-11 col-p-11">
-                                    <p class="text-justify">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
-                                    </p>
-                                </div>
-                            </div>
-                        </div>                
-                        <div class="resume-experience">
-                            <div class="row">
-                                <h2 class="col-xs-offset-2 col-xs-10 col-md-offset-2 col-p-offset-2 col-md-10 col-p-10">Job 1</h2>
-                            </div>
-                            <div class="row">
-                                <div class="resume-experience-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-1 col-p-1">
-                                    <img src="insidesecure.png" class="img-responsive center-block"></img>
-                                </div>
-                                <div class="clearfix visible-xs-block visible-sm-block"></div>
-                                <div class="resume-experience-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-11 col-p-11">
-                                    <p class="text-justify">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
-                                    </p>
-                                </div>
-                            </div>
-                        </div>                
-                        <div class="resume-experience">
-                            <div class="row">
-                                <h2 class="col-xs-offset-2 col-xs-10 col-md-offset-2 col-p-offset-2 col-md-10 col-p-10">Job 1</h2>
-                            </div>
-                            <div class="row">
-                                <div class="resume-experience-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-1 col-p-1">
-                                    <img src="insidesecure.png" class="img-responsive center-block"></img>
-                                </div>
-                                <div class="clearfix visible-xs-block visible-sm-block"></div>
-                                <div class="resume-experience-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-11 col-p-11">
-                                    <p class="text-justify">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
-                                    </p>
-                                </div>
-                            </div>
-                        </div>                
                     </div>
-                </div>
 
-                <!-- Education -->
-                <div id="resume-education" style="display:none;">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <h1 class="col-xs-11 col-md-11 col-p-11"><i class="fa fa-graduation-cap"></i>EDUCATION</h1>
+                    <!-- Education -->
+                    <div id="resume-education" _style="display:none;">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h1 class="col-xs-11 col-md-11 col-p-11"><i class="fa fa-graduation-cap"></i>EDUCATION</h1>
+                            </div>
+                            <div class="resume-experience">
+                                <div class="row">
+                                    <h2 class="col-xs-offset-2 col-xs-10 col-md-offset-2 col-p-offset-2 col-md-10 col-p-10">Job 1</h2>
+                                </div>
+                                <div class="row">
+                                    <div class="resume-experience-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-1 col-p-1">
+                                        <img src="insidesecure.png" class="img-responsive center-block"></img>
+                                    </div>
+                                    <div class="clearfix visible-xs-block visible-sm-block"></div>
+                                    <div class="resume-experience-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-11 col-p-11">
+                                        <p class="text-justify">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>                
+                            <div class="resume-experience">
+                                <div class="row">
+                                    <h2 class="col-xs-offset-2 col-xs-10 col-md-offset-2 col-p-offset-2 col-md-10 col-p-10">Job 1</h2>
+                                </div>
+                                <div class="row">
+                                    <div class="resume-experience-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-1 col-p-1">
+                                        <img src="insidesecure.png" class="img-responsive center-block"></img>
+                                    </div>
+                                    <div class="clearfix visible-xs-block visible-sm-block"></div>
+                                    <div class="resume-experience-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-11 col-p-11">
+                                        <p class="text-justify">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>                
+                            <div class="resume-experience">
+                                <div class="row">
+                                    <h2 class="col-xs-offset-2 col-xs-10 col-md-offset-2 col-p-offset-2 col-md-10 col-p-10">Job 1</h2>
+                                </div>
+                                <div class="row">
+                                    <div class="resume-experience-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-1 col-p-1">
+                                        <img src="insidesecure.png" class="img-responsive center-block"></img>
+                                    </div>
+                                    <div class="clearfix visible-xs-block visible-sm-block"></div>
+                                    <div class="resume-experience-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-11 col-p-11">
+                                        <p class="text-justify">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>                
                         </div>
-                        <div class="resume-experience">
-                            <div class="row">
-                                <h2 class="col-xs-offset-2 col-xs-10 col-md-offset-2 col-p-offset-2 col-md-10 col-p-10">Job 1</h2>
-                            </div>
-                            <div class="row">
-                                <div class="resume-experience-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-1 col-p-1">
-                                    <img src="insidesecure.png" class="img-responsive center-block"></img>
-                                </div>
-                                <div class="clearfix visible-xs-block visible-sm-block"></div>
-                                <div class="resume-experience-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-11 col-p-11">
-                                    <p class="text-justify">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
-                                    </p>
-                                </div>
-                            </div>
-                        </div>                
-                        <div class="resume-experience">
-                            <div class="row">
-                                <h2 class="col-xs-offset-2 col-xs-10 col-md-offset-2 col-p-offset-2 col-md-10 col-p-10">Job 1</h2>
-                            </div>
-                            <div class="row">
-                                <div class="resume-experience-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-1 col-p-1">
-                                    <img src="insidesecure.png" class="img-responsive center-block"></img>
-                                </div>
-                                <div class="clearfix visible-xs-block visible-sm-block"></div>
-                                <div class="resume-experience-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-11 col-p-11">
-                                    <p class="text-justify">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
-                                    </p>
-                                </div>
-                            </div>
-                        </div>                
-                        <div class="resume-experience">
-                            <div class="row">
-                                <h2 class="col-xs-offset-2 col-xs-10 col-md-offset-2 col-p-offset-2 col-md-10 col-p-10">Job 1</h2>
-                            </div>
-                            <div class="row">
-                                <div class="resume-experience-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-1 col-p-1">
-                                    <img src="insidesecure.png" class="img-responsive center-block"></img>
-                                </div>
-                                <div class="clearfix visible-xs-block visible-sm-block"></div>
-                                <div class="resume-experience-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-11 col-p-11">
-                                    <p class="text-justify">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
-                                    </p>
-                                </div>
-                            </div>
-                        </div>                
                     </div>
-                </div>
 
-                <!-- Languages -->
-                <div id="resume-education">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <h1 class="col-xs-11 col-md-11 col-p-11"><i class="fa fa-globe"></i>LANGUAGES</h1>
-                        </div>
-                        <div class="row">
-                            <div class="resume-language-cap col-xs-offset-3 col-xs-2 col-md-offset-2 col-p-offset-2 col-md-1 col-p-1">
-                               <img class="img-responsive" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/1.0.0/flags/4x3/fr.svg"></img>
-                           </div>
-                            <div class="resume-language-cap col-xs-offset-2 col-xs-2 col-md-offset-2 col-p-offset-2 col-md-1 col-p-1">
-                               <img class="img-responsive" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/1.0.0/flags/4x3/gb.svg"></img>
+                    <!-- Languages -->
+                    <div id="resume-education">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h1 class="col-xs-11 col-md-11 col-p-11"><i class="fa fa-globe"></i>LANGUAGES</h1>
                             </div>
-                        </div>
-                        <div class="row">
-                            <div class="resume-language-cap col-xs-offset-2 col-xs-4 col-md-offset-1 col-p-offset-1 col-md-3 col-p-3">
-                               <p class="text-center">French</p>
-                               <p class="text-center">
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                                </p>
+                            <div class="row">
+                                <div class="resume-language-cap col-xs-offset-3 col-xs-2 col-md-offset-2 col-p-offset-2 col-md-1 col-p-1">
+                                   <img class="img-responsive" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/1.0.0/flags/4x3/fr.svg"></img>
+                               </div>
+                                <div class="resume-language-cap col-xs-offset-2 col-xs-2 col-md-offset-2 col-p-offset-2 col-md-1 col-p-1">
+                                   <img class="img-responsive" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/1.0.0/flags/4x3/gb.svg"></img>
+                                </div>
                             </div>
-                            <div class="resume-language-cap col-xs-offset-0 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-3 col-p-3">
-                               <p class="text-center">English</p>
-                               <p class="text-center">
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star"></i>
-                                   <i class="fa fa-star-o"></i>
-                                   <i class="fa fa-star-o"></i>
-                                </p>
+                            <div class="row">
+                                <div class="resume-language-cap col-xs-offset-2 col-xs-4 col-md-offset-1 col-p-offset-1 col-md-3 col-p-3">
+                                   <p class="text-center">French</p>
+                                   <p class="text-center">
+                                       <i class="fa fa-star"></i>
+                                       <i class="fa fa-star"></i>
+                                       <i class="fa fa-star"></i>
+                                       <i class="fa fa-star"></i>
+                                       <i class="fa fa-star"></i>
+                                    </p>
+                                </div>
+                                <div class="resume-language-cap col-xs-offset-0 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-3 col-p-3">
+                                   <p class="text-center">English</p>
+                                   <p class="text-center">
+                                       <i class="fa fa-star"></i>
+                                       <i class="fa fa-star"></i>
+                                       <i class="fa fa-star"></i>
+                                       <i class="fa fa-star-o"></i>
+                                       <i class="fa fa-star-o"></i>
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>

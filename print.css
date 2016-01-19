@@ -12,10 +12,7 @@ body {
 }
 
 @page {
-    // size: 210mm 297mm;
     margin: 0 0 0 0;
-    padding: 0 0 0 0;
-    border: none;
 }
 
 #main {
@@ -37,8 +34,6 @@ body {
 }
 #resume-my-infos {
     height: 202.3mm;
-    // position: absolute;
-    // bottom: 0;
 }
 
 #resume-my-name {

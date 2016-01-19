@@ -7,15 +7,15 @@ h1>i, h2>i {
     padding-right: 2%;
 }
 
-// Avoid the horizontal scrollbar
-// http://stackoverflow.com/questions/28438184/unwanted-horizontal-scroll-bar-using-bootstrap-3
+/* Avoid the horizontal scrollbar */
+/* http://stackoverflow.com/questions/28438184/unwanted-horizontal-scroll-bar-using-bootstrap-3 */
 #main>.row {
     margin-left: 0;
     margin-right: 0;
 }
 
-// Column management, tricky part is to have both columns the same size
-// http://stackoverflow.com/questions/25213171/how-to-make-bootstrap-column-height-to-100-row-height
+/* Column management, tricky part is to have both columns the same size */
+/* http://stackoverflow.com/questions/25213171/how-to-make-bootstrap-column-height-to-100-row-height */
 #main {
     display: table;
 }

@@ -37,7 +37,8 @@
     <script>
         $(document).on('ready', function() {
             $.getJSON('data.json', function(data) {
-                alert(''); 
+                $('#me-avatar').attr('src', data.me.avatar);
+                $('#me-name').text(data.me.first_name + ' ' + data.me.last_name);
             });
         });
     
@@ -65,11 +66,11 @@
                             <div class="row">
                                 <div class="    col-xs-offset-2 col-xs-8
                                                 col-md-offset-3 col-p-offset-3 col-md-6 col-p-6">
-                                    <img src="build.png" class="avatar img-responsive center-block"></img>
+                                    <img src="build.png" id="me-avatar" class="img-responsive center-block"></img>
                                 </div>
                             </div>
                             <div class="row">
-                                <p id="resume-my-name" class="text-center col-xs-12 col-md-12 col-p-12">Cyril DUTRIEUX</p>
+                                <p id="me-name" class="text-center col-xs-12 col-md-12 col-p-12">Cyril DUTRIEUX</p>
                             </div>
                             <p id="resume-short-description" class="text-center">Software engineer</p>
                         </div>

@@ -1,7 +1,7 @@
 {
     "me": {
-        "last-name": "DUTRIEUX",
-        "first-name": "Cyril",
+        "last_name": "DUTRIEUX",
+        "first_name": "Cyril",
         "avatar": "avatar.jpg",
         "description": "Lorem ipsum etc",
         "contact" : {
@@ -10,7 +10,7 @@
             "linkedin": "https://fr.linkedin.com/in/cyrildutrieux"
         }
     },
-    "experience": [
+    "experiences": [
         {
             "title": "Embedded secured software",
             "description": "lorem ipsum etc",

@@ -52,13 +52,13 @@ h1>i, h2>i {
 #resume-photo-name img {
     padding-top: 10%;
 }
-#resume-my-name {
+#me-name {
     font-size: 500%;
 }
 #resume-short-description {
     font-size: 500%;
 }
-.avatar {
+#me-avatar {
     border-radius: 50%;
 }
 

@@ -34,6 +34,15 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
 
+    <script>
+        $(document).on('ready', function() {
+            $.getJSON('data.json', function(data) {
+                alert(''); 
+            });
+        });
+    
+    </script>
+
   </head>
   <body>
     <!-- debug -->
@@ -56,7 +65,7 @@
                             <div class="row">
                                 <div class="    col-xs-offset-2 col-xs-8
                                                 col-md-offset-3 col-p-offset-3 col-md-6 col-p-6">
-                                    <img src="avatar.jpg" class="avatar img-responsive center-block"></img>
+                                    <img src="build.png" class="avatar img-responsive center-block"></img>
                                 </div>
                             </div>
                             <div class="row">
@@ -79,7 +88,9 @@
                             </div>
                             <p id="resume-contact-me" class="text-left">
                                 cyril.dutrieux@gmail.com<br/>
-                                +336 81 21 92 48</br>
+                                <i class="fa fa-mobile"></i>  +336 81 21 92 48<br/>
+                                <i class="fa fa-linkedin-square"></i>  linkedin.com/cyrildutrieux<br/>
+                                <i class="fa fa-github"></i>  github.com/cdtx<br/>
                             </p>
                         </div>
                     </div>
@@ -100,39 +111,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="resume-experience-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-1 col-p-1">
-                                        <img src="insidesecure.png" class="img-responsive center-block"></img>
-                                    </div>
-                                    <div class="clearfix visible-xs-block visible-sm-block"></div>
-                                    <div class="resume-experience-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-11 col-p-11">
-                                        <p class="text-justify">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>                
-                            <div class="resume-experience">
-                                <div class="row">
-                                    <h2 class="col-xs-offset-2 col-xs-10 col-md-offset-2 col-p-offset-2 col-md-10 col-p-10">Job 1</h2>
-                                </div>
-                                <div class="row">
-                                    <div class="resume-experience-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-1 col-p-1">
-                                        <img src="insidesecure.png" class="img-responsive center-block"></img>
-                                    </div>
-                                    <div class="clearfix visible-xs-block visible-sm-block"></div>
-                                    <div class="resume-experience-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-11 col-p-11">
-                                        <p class="text-justify">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>                
-                            <div class="resume-experience">
-                                <div class="row">
-                                    <h2 class="col-xs-offset-2 col-xs-10 col-md-offset-2 col-p-offset-2 col-md-10 col-p-10">Job 1</h2>
-                                </div>
-                                <div class="row">
-                                    <div class="resume-experience-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-1 col-p-1">
-                                        <img src="insidesecure.png" class="img-responsive center-block"></img>
+                                        <img src="build.png" class="img-responsive center-block"></img>
                                     </div>
                                     <div class="clearfix visible-xs-block visible-sm-block"></div>
                                     <div class="resume-experience-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-11 col-p-11">
@@ -157,39 +136,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="resume-experience-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-1 col-p-1">
-                                        <img src="insidesecure.png" class="img-responsive center-block"></img>
-                                    </div>
-                                    <div class="clearfix visible-xs-block visible-sm-block"></div>
-                                    <div class="resume-experience-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-11 col-p-11">
-                                        <p class="text-justify">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>                
-                            <div class="resume-experience">
-                                <div class="row">
-                                    <h2 class="col-xs-offset-2 col-xs-10 col-md-offset-2 col-p-offset-2 col-md-10 col-p-10">Job 1</h2>
-                                </div>
-                                <div class="row">
-                                    <div class="resume-experience-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-1 col-p-1">
-                                        <img src="insidesecure.png" class="img-responsive center-block"></img>
-                                    </div>
-                                    <div class="clearfix visible-xs-block visible-sm-block"></div>
-                                    <div class="resume-experience-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-11 col-p-11">
-                                        <p class="text-justify">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>                
-                            <div class="resume-experience">
-                                <div class="row">
-                                    <h2 class="col-xs-offset-2 col-xs-10 col-md-offset-2 col-p-offset-2 col-md-10 col-p-10">Job 1</h2>
-                                </div>
-                                <div class="row">
-                                    <div class="resume-experience-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-1 col-p-1">
-                                        <img src="insidesecure.png" class="img-responsive center-block"></img>
+                                        <img src="build.png" class="img-responsive center-block"></img>
                                     </div>
                                     <div class="clearfix visible-xs-block visible-sm-block"></div>
                                     <div class="resume-experience-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-11 col-p-11">

@@ -15,6 +15,15 @@ body {
     margin: 0 0 0 0;
 }
 
+@media print {
+    .visible-xs-block {
+        display: none !important;
+    }
+    .visible-sm-block {
+        display: none !important;
+    }
+}
+
 #main {
     display: initial;
 }

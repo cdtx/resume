@@ -89,6 +89,11 @@ h1>i, h2>i {
         margin-bottom: 2%;
     }
 }
+@media screen and (max-width: 992px) {
+      .resume-experience-title.text-left, .resume-education-title.text-left {
+          text-align: center;
+       } 
+    }
 
 .resume-experience-description, .resume-education-description {
 

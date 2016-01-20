@@ -55,7 +55,7 @@ h1>i, h2>i {
 #me-name {
     font-size: 500%;
 }
-#resume-short-description {
+#me-title {
     font-size: 500%;
 }
 #me-avatar {
@@ -70,8 +70,9 @@ h1>i, h2>i {
     -webkit-print-color-adjust:exact;
     color: #B3B3B3;
 }
-
-
+#resume-contact-me i {
+    padding-right: 1%;
+}
 
 .resume-experience:first-of-type {
     

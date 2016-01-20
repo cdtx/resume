@@ -1,13 +1,15 @@
-{
+var data = {
     "me": {
         "last_name": "DUTRIEUX",
         "first_name": "Cyril",
         "avatar": "avatar.jpg",
+        "title": "Software engineer",
         "description": "Lorem ipsum etc",
         "contact" : {
             "phone": "+336 81 21 92 48",
             "email": "cyril.dutrieux@gmail.com",
-            "linkedin": "https://fr.linkedin.com/in/cyrildutrieux"
+            "linkedin": "https://fr.linkedin.com/in/cyrildutrieux",
+            "github": "github.com/cdtx"
         }
     },
     "experiences": [

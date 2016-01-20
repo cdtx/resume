@@ -44,7 +44,7 @@ var data = {
             "description": "lorem ipsum etc",
             "company": {
                 "name": "ENSEA",
-                "logo": "ensea.jpg"
+                "logo": "ensea.png"
             }
         }
     ],

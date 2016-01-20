@@ -88,6 +88,7 @@ h1>i, h2>i {
 
 .resume-experience-logo {
     opacity: 0.75;
+    font-size: 60%;
 }
 @media(max-width:992px) {
     .resume-experience-logo {

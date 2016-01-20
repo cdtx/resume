@@ -53,10 +53,10 @@ h1>i, h2>i {
     padding-top: 10%;
 }
 #me-name {
-    font-size: 500%;
+    font-size: 400%;
 }
 #me-title {
-    font-size: 500%;
+    font-size: 300%;
 }
 #me-avatar {
     border-radius: 50%;
@@ -77,7 +77,7 @@ h1>i, h2>i {
 .resume-experience, .resume-education{
     padding-left: 15px;
     padding-right: 15px;
-    font-size: 120%;
+    font-size: 110%;
 }
 
 .resume-experience-logo, .resume-education-logo {
@@ -92,6 +92,9 @@ h1>i, h2>i {
     .resume-experience-logo {
         margin-bottom: 2%;
     }
+}
+.resume-experience-title, .resume-education-title {
+    font-size: 150%;
 }
 @media screen and (max-width: 992px) {
       .resume-experience-title.text-left, .resume-education-title.text-left {

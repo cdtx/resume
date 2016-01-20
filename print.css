@@ -49,6 +49,13 @@ body {
     font-size: 300%;
 }
 #me-title {
-    font-size: 300%;
+    font-size: 250%;
+}
+
+.resume-experience-logo img, .resume-education-logo img {
+    padding: 0;
+}
+.resume-experience, .resume-education {
+    font-size: 100%;
 }
 

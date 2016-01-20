@@ -15,7 +15,7 @@ var data = {
     "experiences": [
         {
             "title": "Embedded secured software",
-            "description": "lorem ipsum etc",
+            "description": ["lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc"],
             "company": {
                 "name": "Inside Secure",
                 "logo": "insidesecure.png"
@@ -23,7 +23,7 @@ var data = {
         },
         {
             "title": "Methodology and tools",
-            "description": "lorem ipsum etc",
+            "description": ["lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc"],
             "company": {
                 "name": "Inside Secure",
                 "logo": "insidesecure.png"
@@ -31,7 +31,7 @@ var data = {
         },
         {
             "title": "Embedded software",
-            "description": "lorem ipsum etc",
+            "description": ["lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc"],
             "company": {
                 "name": "Alstom transport",
                 "logo": "alstom.jpg"
@@ -41,7 +41,7 @@ var data = {
     "education": [
         {
             "title": "Embedded software master degree",
-            "description": "lorem ipsum etc",
+            "description": ["lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc"],
             "company": {
                 "name": "ENSEA",
                 "logo": "ensea.png"

@@ -74,19 +74,13 @@ h1>i, h2>i {
     padding-right: 1%;
 }
 
-.resume-experience:first-of-type {
-    
-}
-.resume-experience {
+.resume-experience, .resume-education{
     padding-left: 15px;
     padding-right: 15px;
     font-size: 120%;
 }
-.resume-experience:last-of-type {
 
-}
-
-.resume-experience-logo {
+.resume-experience-logo, .resume-education-logo{
     opacity: 0.75;
     font-size: 60%;
 }
@@ -96,7 +90,7 @@ h1>i, h2>i {
     }
 }
 
-.resume-experience-description {
+.resume-experience-description, .resume-education-description {
 
 }
 

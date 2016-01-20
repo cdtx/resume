@@ -80,10 +80,14 @@ h1>i, h2>i {
     font-size: 120%;
 }
 
-.resume-experience-logo, .resume-education-logo{
+.resume-experience-logo, .resume-education-logo {
     opacity: 0.75;
     font-size: 60%;
 }
+.resume-experience-logo img, .resume-education-logo img {
+    padding: 5%;
+}
+
 @media(max-width:992px) {
     .resume-experience-logo {
         margin-bottom: 2%;

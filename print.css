@@ -6,7 +6,7 @@
 }
 body {
     width: 210mm;
-    height: 302.3mm;
+    height: 297mm;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
@@ -30,19 +30,19 @@ body {
 #resume-col-left {
     position: initial;
     display: initial;
-    height: 302.3mm;
+    /* height: 302.3mm; */
 }
 #resume-col-right {
     position: initial;
     background-color: white !important;
     display: initial;
-    height: 302.3mm;
+    height: 297mm;
 }
 #resume-photo-name {
     height: 100mm;
 }
 #resume-my-infos {
-    height: 202.3mm;
+    height: 197mm;
 }
 
 #me-name {

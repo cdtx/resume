@@ -49,9 +49,6 @@ h1>i, h2>i {
     -webkit-print-color-adjust:exact;
     color: #B3B3B3;
 }
-#resume-photo-name img {
-    padding-top: 10%;
-}
 #me-name {
     font-size: 400%;
 }
@@ -60,6 +57,8 @@ h1>i, h2>i {
 }
 #me-avatar {
     border-radius: 50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 

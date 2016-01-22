@@ -14,16 +14,29 @@ var data = {
     },
     "experiences": [
         {
-            "title": "Embedded secured software",
-            "description": ["lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc"],
+            "title": "Smartcard secured embedded software",
+            "description": [
+                "- GlobalPlatform for cards specifications",
+                "- Java Card, NFC, ISO 7816",
+                "- Source code management",
+                "",
+                "- C, Arm, Avr, Subversion, SCons"
+            ],
             "company": {
                 "name": "Inside Secure",
                 "logo": "insidesecure.png"
             }
         },
         {
-            "title": "Methodology and tools",
-            "description": ["lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc"],
+            "title": "Python expert",
+            "description": [
+                "Aware of productivity and simplicity",
+                "Created and maintained :",
+                "    - Full APDU framework for smartcards communications",
+                "    - Full python test engine",
+                "",
+                "Python, Pyscard, integration & management"
+            ],
             "company": {
                 "name": "Inside Secure",
                 "logo": "insidesecure.png"
@@ -31,7 +44,11 @@ var data = {
         },
         {
             "title": "Embedded software",
-            "description": ["lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc"],
+            "description": [
+                "Developper on a new generation of desk driver display",
+                "",
+                "C, QNX, photon, ClearCase"
+            ],
             "company": {
                 "name": "Alstom transport",
                 "logo": "alstom.jpg"
@@ -41,7 +58,12 @@ var data = {
     "education": [
         {
             "title": "Embedded software master degree",
-            "description": ["lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc", "  - lorem ipsum etc"],
+            "description": [
+                "Both engineer and research grades with :",
+                "    - Real time operating systems",
+                "    - Digital design (FPGA, Verilog)",
+                "    - Strong various electronic knowledges"
+            ],
             "company": {
                 "name": "ENSEA",
                 "logo": "ensea.png"

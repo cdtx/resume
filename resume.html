@@ -64,9 +64,31 @@
                 var experience = $('.resume-experience').first().clone();
 
                 experience.find('.resume-experience-title').text(value.title);
-                experience.find('.resume-experience-description').html(value.description.join('<br>') + '<br/>' + '<i>Keywords : ' + value.keywords.join('<br/>') + '</i>');
-                experience.find('.resume-experience-logo>img').attr('src', value.company.logo);
-                experience.find('.resume-experience-logo>p').text(value.company.name);
+                if (value.description != undefined) {
+                    tmpStr = value.description.join('<br>');
+                    if (value.keywords != undefined) {
+                        tmpStr += '<br/>' + '<i>Keywords : ' + value.keywords.join('<br/>') + '</i>';
+                    }
+                    experience.find('.resume-experience-description').html(tmpStr);
+                }
+                if(value.company != undefined) {
+                    if(value.company.logo != undefined) {
+                        experience.find('.resume-experience-logo>img').attr('src', value.company.logo);
+                    }
+                    else {
+                        experience.find('.resume-experience-logo>img').remove();
+                    }
+                    if(value.company.name != undefined) {
+                        experience.find('.resume-experience-logo>p').text(value.company.name);
+                    }
+                    else {
+                        experience.find('.resume-experience-logo>p').remove();
+                    }
+                }
+                else {
+                        experience.find('.resume-experience-logo>img').remove();
+                        experience.find('.resume-experience-logo>p').remove();
+                }
 
                 experience.appendTo($('#resume-experiences>div').first());
             });

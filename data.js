@@ -20,7 +20,7 @@ var data = {
     },
     "experiences": [
         {
-            "title": "Smart Card secured embedded software",
+            "title": "Smart Card secured embedded software (2012-2016)",
             "description": [
                 "- GlobalPlatform for cards specifications",
                 "- Java Card, NFC, ISO 7816",
@@ -28,7 +28,7 @@ var data = {
                 "",
             ],
             "keywords": [
-                "Smart Card, C, Arm, Avr, Subversion, SCons",
+                "GlobalPlatform, Smart Card, C, Arm, Avr, Subversion, SCons",
             ],
             "company": {
                 "name": "Inside Secure",
@@ -36,7 +36,7 @@ var data = {
             }
         },
         {
-            "title": "Python expert",
+            "title": "Python expert (2012-2016)",
             "description": [
                 "Aware of productivity and simplicity",
                 "Created and maintained :",
@@ -53,9 +53,10 @@ var data = {
             }
         },
         {
-            "title": "Embedded software",
+            "title": "Embedded software (2008-2012)",
             "description": [
                 "Developper on a new generation of desk driver display",
+                "-> Leads to an internal award of the most inovative project",
                 "",
             ],
             "keywords" : [
@@ -65,6 +66,15 @@ var data = {
                 "name": "Alstom transport",
                 "logo": "alstom.jpg"
             }
+        },
+        {
+            "title": "Side projects",
+            "description" : [
+                "- Microchip PIC various experiences (sensors, standard buses, etc.)",
+                "- Embedded Linux with buildroot",
+                "- Personal and professional web sites",
+                "- Personal custom markdown language framework",
+            ],
         }
     ],
     "education": [

@@ -16,6 +16,62 @@ body {
 }
 
 @media print {
+    * {
+        color: inherit !important;
+        -webkit-print-color-adjust: exact; 
+    }
+    #resume-photo-name, #resume-my-infos {
+        color: #B3B3B3 !important;
+    }
+    .fa-mobile {
+        color: #B3B3B3 !important;
+    }
+}
+@media print {
+    .visible-xs-block {
+        display: none !important;
+    }
+    .visible-sm-block {
+        display: none !important;
+    }
+}
+
+#main {
+    display: initial;
+}
+#resume-col-left {
+    position: initial;
+    display: initial;
+    /* height: 302.3mm; */
+}
+#resume-col-right {
+    position: initial;
+    background-color: white !important;
+    display: initial;
+    height: 297mm;
+}
+#resume-photo-name {
+    height: 100mm;
+}
+#resume-my-infos {
+    height: 197mm;
+}
+
+#me-name {
+    font-size: 300%;
+}
+#me-title {
+    font-size: 250%;
+}
+
+.resume-experience-logo img, .resume-education-logo img {
+    padding: 0;
+    #resume-photo-name, #resume-my-infos {
+        color: #B3B3B3 !important;
+        -webkit-print-color-adjust: exact; 
+    }
+}
+@media print {
     .visible-xs-block {
         display: none !important;
     }

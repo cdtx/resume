@@ -20,13 +20,15 @@ var data = {
     },
     "experiences": [
         {
-            "title": "Smartcard secured embedded software",
+            "title": "Smart Card secured embedded software",
             "description": [
                 "- GlobalPlatform for cards specifications",
                 "- Java Card, NFC, ISO 7816",
                 "- Source code management",
                 "",
-                "- C, Arm, Avr, Subversion, SCons"
+            ],
+            "keywords": [
+                "Smart Card, C, Arm, Avr, Subversion, SCons",
             ],
             "company": {
                 "name": "Inside Secure",
@@ -38,10 +40,12 @@ var data = {
             "description": [
                 "Aware of productivity and simplicity",
                 "Created and maintained :",
-                "    - Full APDU framework for smartcards communications",
+                "    - Full APDU framework for smart Cards communications",
                 "    - Full python test engine",
                 "",
-                "Python, Pyscard, integration & management"
+            ],
+            "keywords": [
+                "Python, Pyscard, integration & management",
             ],
             "company": {
                 "name": "Inside Secure",
@@ -53,6 +57,8 @@ var data = {
             "description": [
                 "Developper on a new generation of desk driver display",
                 "",
+            ],
+            "keywords" : [
                 "C, QNX, photon, ClearCase"
             ],
             "company": {

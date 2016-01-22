@@ -41,7 +41,7 @@
             $('#me-avatar').attr('src', data.me.avatar);
             $('#me-name').text(data.me.first_name + ' ' + data.me.last_name);
             $('#me-title').text(data.me.title);
-            $('#me-description').text(data.me.description);
+            $('#me-description').html(data.me.description.join('<br>'));
             lVal = data.me.contact.email;
             if (lVal != undefined) {
                 $('#me-email').last().replaceWith(lVal);

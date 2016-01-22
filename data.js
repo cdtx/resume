@@ -4,7 +4,13 @@ var data = {
         "first_name": "Cyril",
         "avatar": "avatar.jpg",
         "title": "Software engineer",
-        "description": "Lorem ipsum etc",
+        "description": [
+            "I'm a various technologies engineer, specialized in embedded software.",
+            "My professional and personal experiences made me develop a range of skills from hardware digital design, up to web stuffs.",
+            "I'm passionated and curious, thus I'm oriented to open source mentality.",
+            "I am maried and have one child.",
+            "Finally I'm an intensive sport practicer, essentially cycling since a lot of years.",
+        ],
         "contact" : {
             "phone": "+336 81 21 92 48",
             "email": "cyril.dutrieux@gmail.com",

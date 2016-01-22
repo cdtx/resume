@@ -64,7 +64,7 @@
                 var experience = $('.resume-experience').first().clone();
 
                 experience.find('.resume-experience-title').text(value.title);
-                experience.find('.resume-experience-description').text(value.description);
+                experience.find('.resume-experience-description').html(value.description.join('<br>'));
                 experience.find('.resume-experience-logo>img').attr('src', value.company.logo);
                 experience.find('.resume-experience-logo>p').text(value.company.name);
 
@@ -78,7 +78,7 @@
                 var education = $('.resume-education').first().clone();
 
                 education.find('.resume-education-title').text(value.title);
-                education.find('.resume-education-description').text(value.description);
+                education.find('.resume-education-description').html(value.description.join('<br>'));
                 education.find('.resume-education-logo>img').attr('src', value.company.logo);
                 education.find('.resume-education-logo>p').text(value.company.name);
 

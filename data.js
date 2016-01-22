@@ -6,10 +6,10 @@ var data = {
         "title": "Software engineer",
         "description": [
             "I'm a various technologies engineer, specialized in embedded software.",
-            "My professional and personal experiences made me develop a range of skills from hardware digital design, up to web stuffs.",
-            "I'm passionated and curious, thus I'm oriented to open source mentality.",
-            "I am maried and have one child.",
-            "Finally I'm an intensive sport practicer, essentially cycling since a lot of years.",
+            "I'm passionate, curious, and with an open (source) mind.",
+            "I have developed a wide range of skills in hardware digital design all the way to web stuffs from my professional and personal experiences.",
+            "I am married, with a child.",
+            "Finally I'm an intensive sportsman, essentially in cyclism, that's big part of my free time",
         ],
         "contact" : {
             "phone": "+336 81 21 92 48",
@@ -22,13 +22,16 @@ var data = {
         {
             "title": "Smart Card secured embedded software (2012-2016)",
             "description": [
-                "- GlobalPlatform for cards specifications",
-                "- Java Card, NFC, ISO 7816",
-                "- Source code management",
-                "",
+                "Firmware developer in the team in charge of Secure Element technologies.",
+                "    - GlobalPlatform for cards specifications",
+                "    - Java Card, NFC, ISO 7816",
+                "    - Source code management",
             ],
             "keywords": [
                 "GlobalPlatform, Smart Card, C, Arm, Avr, Subversion, SCons",
+            ],
+            "distinctions" : [
+                "Product successfully certified with EMVCo."
             ],
             "company": {
                 "name": "Inside Secure",
@@ -39,13 +42,14 @@ var data = {
             "title": "Python expert (2012-2016)",
             "description": [
                 "Aware of productivity and simplicity",
-                "Created and maintained :",
+                "Created and maintained:",
                 "    - Full APDU framework for smart Cards communications",
                 "    - Full python test engine",
-                "",
+                "    - Driven trainee on \"Using python to execute GlobalPlatform compliance test plans\"",
+                "    - Managed the voluntary contributions.",
             ],
             "keywords": [
-                "Python, Pyscard, integration & management",
+                "Python, PyScard, integration & management",
             ],
             "company": {
                 "name": "Inside Secure",
@@ -55,17 +59,18 @@ var data = {
         {
             "title": "Embedded software (2008-2012)",
             "description": [
-                "Developper on a new generation of desk driver display",
-                "-> Leads to an internal award of the most inovative project",
-                "",
+                "Developer on a new generation of desk driver display",
             ],
             "keywords" : [
                 "C, QNX, photon, ClearCase"
             ],
+            "distinctions": [
+                "Worldwide internal award of the most innovative project of the year 2015"
+            ],
             "company": {
                 "name": "Alstom transport",
                 "logo": "alstom.jpg"
-            }
+            },
         },
         {
             "title": "Side projects",
@@ -73,15 +78,15 @@ var data = {
                 "- Microchip PIC various experiences (sensors, standard buses, etc.)",
                 "- Embedded Linux with buildroot",
                 "- Personal and professional web sites",
-                "- Personal custom markdown language framework",
+                "- Personal custom markdown language framework (<a href=\"github.com/cdtx/mino\">github.com/cdtx/mino</a>)",
             ],
         }
     ],
     "education": [
         {
-            "title": "Embedded software master degree",
+            "title": "MSc in software engineering specialized in embedded software",
             "description": [
-                "Both engineer and research grades with :",
+                "Both engineer and research degrees with:",
                 "    - Real time operating systems",
                 "    - Digital design (FPGA, Verilog)",
                 "    - Strong various electronic knowledges"

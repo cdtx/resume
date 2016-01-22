@@ -69,6 +69,9 @@
                     if (value.keywords != undefined) {
                         tmpStr += '<br/>' + '<i>Keywords : ' + value.keywords.join('<br/>') + '</i>';
                     }
+                    if (value.distinctions != undefined) {
+                        tmpStr += '<br>' + '<i class="fa fa-trophy"><i>' + value.distinctions.join("<br/>") + '</i></i>';
+                    }
                     experience.find('.resume-experience-description').html(tmpStr);
                 }
                 if(value.company != undefined) {

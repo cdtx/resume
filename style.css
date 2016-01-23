@@ -7,6 +7,10 @@ h1>i, h2>i {
     padding-right: 2%;
 }
 
+a:link, a:visited {
+    color: inherit;
+}
+
 /* Avoid the horizontal scrollbar */
 /* http://stackoverflow.com/questions/28438184/unwanted-horizontal-scroll-bar-using-bootstrap-3 */
 #main>.row {

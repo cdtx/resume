@@ -52,11 +52,19 @@
             }
             lVal = data.me.contact.linkedin;
             if (lVal != undefined) {
-                $('#me-linkedin').contents().last().replaceWith(lVal);
+                $('#me-linkedin a').first().attr('href', lVal);
+                $('#me-linkedin a').first().text(lVal);
+            }
+            else {
+                $('#me-linkedin').remove();
             }
             lVal = data.me.contact.github;
             if (lVal != undefined) {
-                $('#me-github').contents().last().replaceWith(lVal);
+                $('#me-github a').first().attr('href', lVal);
+                $('#me-github a').first().text(lVal);
+            }
+            else {
+                $('#me-github').remove();
             }
 
             // Experiences
@@ -161,8 +169,8 @@
                             <div id="resume-contact-me" class="text-left">
                                 <p id="me-email">Email</p>
                                 <p id="me-phone"><i class="fa fa-mobile"></i>Phone</p>
-                                <p id="me-linkedin"><i class="fa fa-linkedin-square"></i>Linkedin</p>
-                                <p id="me-github"><i class="fa fa-github"></i>Github</p>
+                                <p id="me-linkedin"><i class="fa fa-linkedin-square"></i><a href="linkedin.com">Linkedin</a></p>
+                                <p id="me-github"><i class="fa fa-github"></i><a href="github.com">Github</a></p>
                             </div>
                         </div>
                     </div>

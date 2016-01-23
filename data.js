@@ -15,7 +15,7 @@ var data = {
             "phone": "+336 81 21 92 48",
             "email": "cyril.dutrieux@gmail.com",
             "linkedin": "https://fr.linkedin.com/in/cyrildutrieux",
-            "github": "github.com/cdtx"
+            "github": "https://github.com/cdtx"
         }
     },
     "experiences": [
@@ -31,7 +31,7 @@ var data = {
                 "GlobalPlatform, Smart Card, C, Arm, Avr, Subversion, SCons",
             ],
             "distinctions" : [
-                "Product successfully certified with EMVCo."
+                "VaultSecure product received EMVCo security evaluation approval"
             ],
             "company": {
                 "name": "Inside Secure",
@@ -78,7 +78,7 @@ var data = {
                 "- Microchip PIC various experiences (sensors, standard buses, etc.)",
                 "- Embedded Linux with buildroot",
                 "- Personal and professional web sites",
-                "- Personal custom markdown language framework (<a href=\"github.com/cdtx/mino\">github.com/cdtx/mino</a>)",
+                "- Personal custom markdown language framework (<a href=\"https://github.com/cdtx/mino\">github.com/cdtx/mino</a>)",
             ],
         }
     ],

@@ -9,7 +9,7 @@ var data = {
             "I'm passionate, curious, and with an open (source) mind.",
             "I have developed a wide range of skills in hardware digital design all the way to web stuffs from my professional and personal experiences.",
             "I am married, with a child.",
-            "Finally I'm an intensive sportsman, essentially in cyclism, that's big part of my free time",
+            "Finally I'm an intensive sportsman, essentially cyclism, that's big part of my free time",
         ],
         "contact" : {
             "phone": "+336 81 21 92 48",
@@ -23,12 +23,12 @@ var data = {
             "title": "Smart Card secured embedded software (2012-2016)",
             "description": [
                 "Firmware developer in the team in charge of Secure Element technologies.",
-                "    - GlobalPlatform for cards specifications",
-                "    - Java Card, NFC, ISO 7816",
-                "    - Source code management",
+                "    - GlobalPlatform for cards specifications technical referent",
+                "    - Involved in architecture definition",
+                "    - Source code workflow and compilation-chain definition",
             ],
             "keywords": [
-                "GlobalPlatform, Smart Card, C, Arm, Avr, Subversion, SCons",
+                "GlobalPlatform, Java Card, NFC, ISO 7816, C, Arm, Avr, Cryptography basics, Subversion, SCons",
             ],
             "distinctions" : [
                 "VaultSecure product received EMVCo security evaluation approval"

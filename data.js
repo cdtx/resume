@@ -8,7 +8,7 @@ var data = {
             "I'm a various technologies engineer, specialized in embedded software.",
             "I'm passionate, curious, and with an open (source) mind.",
             "I have developed a wide range of skills in hardware digital design all the way to web stuffs from my professional and personal experiences.",
-            "I am married, with a child.",
+            "31 years old, I am married, with a child.",
             "Finally I'm an intensive sportsman, essentially cyclism, that's big part of my free time",
         ],
         "contact" : {

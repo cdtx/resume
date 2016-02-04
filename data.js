@@ -4,7 +4,7 @@ var data = {
         "first_name": "Cyril",
         "avatar": "avatar.jpg",
         "title": "Software engineer",
-        "description-short" : "Various technologies engineer, specialized in embedded software, software security for mobile payement and IOT.",
+        "description_short" : ["Various technologies engineer, specialized in embedded software, software security for mobile payement and IOT."],
         "description": [
             "I'm a various technologies engineer, specialized in embedded software.",
             "I'm passionate, curious, and with an open (source) mind.",

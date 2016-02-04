@@ -21,7 +21,7 @@ body {
     color: #B3B3B3 !important;
 }
 #me-name {
-    font-size: 200%;
+    font-size: 180%;
 }
 #me-title {
     font-size: 150%;
@@ -34,7 +34,11 @@ body {
 }
 
 #me-description-short {
-    font-size: 150%;
+    font-size: 90%;
+}
+
+#visit-contact-me {
+    font-size: 80%;
 }
 
 #visit-contact-me {

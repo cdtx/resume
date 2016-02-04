@@ -34,6 +34,30 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
     <!-- Import data -->
     <script src="data.js"></script>
+
+    <script>
+        $(document).on('ready', function() {
+            $('#me-name').text(data.me.first_name + ' ' + data.me.last_name);
+            $('#me-title').text(data.me.title);
+            $('#me-description-short').html(data.me.description_short.join('<br>'));
+            lVal = data.me.contact.email;
+            if (lVal != undefined) {
+                $('#me-email').last().replaceWith(lVal);
+            }
+            lVal = data.me.contact.phone;
+            if (lVal != undefined) {
+                $('#me-phone').contents().last().replaceWith(lVal);
+            }
+            lVal = data.me.contact.linkedin;
+            if (lVal != undefined) {
+                $('#me-linkedin a').first().attr('href', lVal);
+                $('#me-linkedin a').first().text(lVal);
+            }
+            else {
+                $('#me-linkedin').remove();
+            }
+        });
+    </script>
   </head>
   <body>
 

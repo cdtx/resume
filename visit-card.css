@@ -36,3 +36,9 @@ body {
 #me-description-short {
     font-size: 150%;
 }
+
+#visit-contact-me {
+    position: absolute;
+    bottom: 0mm;
+}
+

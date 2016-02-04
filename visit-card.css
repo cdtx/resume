@@ -1,0 +1,38 @@
+
+body {
+    width: 85mm;
+    height: 55mm;
+    font-family: 'Hind';
+    background-color: #DBDBDB !important;
+    -webkit-print-color-adjust:exact;
+}
+
+/* Override the font color when printing */
+@media print {
+    * {
+        color: inherit !important;
+        -webkit-print-color-adjust: exact; 
+    }
+}
+#visit-col-left {
+    height: 55mm;
+    background-color: #404353 !important;
+    -webkit-print-color-adjust:exact;
+    color: #B3B3B3 !important;
+}
+#me-name {
+    font-size: 200%;
+}
+#me-title {
+    font-size: 150%;
+}
+
+#visit-col-right {
+    height: 55mm;
+    background-color: #F7F7F7 !important;
+    -webkit-print-color-adjust:exact;
+}
+
+#me-description-short {
+    font-size: 150%;
+}

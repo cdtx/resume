@@ -1,12 +1,14 @@
-
 body {
+    background-color: #DBDBDB !important;
+    -webkit-print-color-adjust:exact;
+}
+
+#recto {
     background-image: url("green-wave.svg") !important;
     background-repeat: no-repeat !important;
     width: 85mm;
     height: 55mm;
     font-family: 'Hind';
-    background-color: #DBDBDB !important;
-    -webkit-print-color-adjust:exact;
 }
 #main > div[class="row"] {
     margin: 0;
@@ -72,3 +74,18 @@ body {
     padding-right: 1%;
 }
 
+#verso {
+    page-break-before: always;
+    /* background-image: url("green-wave.svg") !important; */
+    background-color: #F7F7F7;
+    background-repeat: no-repeat !important;
+    width: 85mm;
+    height: 55mm;
+    font-family: 'Hind';
+}
+#verso > div {
+    height: 100%;
+}
+#verso > div > div {
+    height: 100%;
+}

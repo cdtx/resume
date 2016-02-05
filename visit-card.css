@@ -1,7 +1,7 @@
 
 body {
-    background-image: url("green-wave.svg");
-    background-repeat: no-repeat;
+    background-image: url("green-wave.svg") !important;
+    background-repeat: no-repeat !important;
     width: 85mm;
     height: 55mm;
     font-family: 'Hind';
@@ -17,6 +17,20 @@ body {
     * {
         color: inherit !important;
         -webkit-print-color-adjust: exact; 
+
+        -moz-transition: none !important;
+        -o-transition: none !important;
+        -webkit-transition: none !important;
+        transition:none!important;
+    }
+    @page {
+        margin: 0 0 0 0;
+    }
+    a:link, a:visited {
+        color: inherit;
+    }
+    a[href]:after {
+        content: none;
     }
 }
 #visit-col-left {

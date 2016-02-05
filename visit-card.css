@@ -1,10 +1,15 @@
 
 body {
+    background-image: url("green-wave.svg");
+    background-repeat: no-repeat;
     width: 85mm;
     height: 55mm;
     font-family: 'Hind';
     background-color: #DBDBDB !important;
     -webkit-print-color-adjust:exact;
+}
+#main > div[class="row"] {
+    margin: 0;
 }
 
 /* Override the font color when printing */
@@ -15,13 +20,15 @@ body {
     }
 }
 #visit-col-left {
+    padding-right: 0;
+    padding-left: 0;
     height: 55mm;
-    background-color: #404353 !important;
+    background-color: rgba(64, 67, 83, 0.5) !important;
     -webkit-print-color-adjust:exact;
-    color: #B3B3B3 !important;
+    color: #E2E2E2 !important;
 }
 #me-name {
-    font-size: 180%;
+    font-size: 170%;
 }
 #me-title {
     font-size: 150%;
@@ -29,20 +36,25 @@ body {
 
 #visit-col-right {
     height: 55mm;
-    background-color: #F7F7F7 !important;
+    background-color: rgba(247, 247, 257, 0.5) !important;
     -webkit-print-color-adjust:exact;
 }
 
 #me-description-short {
     font-size: 90%;
-}
-
-#visit-contact-me {
-    font-size: 80%;
+    margin: 5%;
+    padding: 0;
 }
 
 #visit-contact-me {
     position: absolute;
     bottom: 0mm;
+    font-size: 65%;
+}
+#visit-contact-me > p {
+    margin-bottom: 1%;
+}
+#visit-contact-me i {
+    padding-right: 1%;
 }
 

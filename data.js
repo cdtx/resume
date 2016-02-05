@@ -4,7 +4,7 @@ var data = {
         "first_name": "Cyril",
         "avatar": "avatar.jpg",
         "title": "Software engineer",
-        "description_short" : ["Various technologies engineer, specialized in embedded software, software security for mobile payement and IOT."],
+        "description_short" : ["Various technologies engineer, specialized in embedded software, software security for mobile payment and IoT."],
         "description": [
             "I'm a various technologies engineer, specialized in embedded software.",
             "I'm passionate, curious, and with an open (source) mind.",
@@ -13,6 +13,7 @@ var data = {
             "Finally I'm an intensive sportsman, essentially cyclism, that's big part of my free time",
         ],
         "contact" : {
+            "location": "Living in Lyon",
             "phone": "+336 81 21 92 48",
             "email": "cyril.dutrieux@gmail.com",
             "linkedin": "https://fr.linkedin.com/in/cyrildutrieux",

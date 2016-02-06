@@ -32,6 +32,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
+    <script src="jquery.qrcode-0.12.0.min.js"></script>
     <!-- Import data -->
     <script src="data.js"></script>
 
@@ -60,6 +61,12 @@
             else {
                 $('#me-linkedin').remove();
             }
+            /* QRCode */
+            $('#qrcode').qrcode({
+                render: 'div',
+                size: 130,
+                text: "https://rawgit.com/cdtx/resume/master/resume.html",
+            });
         });
     </script>
   </head>
@@ -100,8 +107,8 @@
           <div class="container-fluid" style="padding-left:0; padding-right:0">
             <div class="row">
                 <div class="row-height">
-                    <div class="col-xs-12 col-height col-middle">
-                        <p class="text-center">x</p>
+                    <div class="col-xs-4 col-xs-offset-4 col-height col-middle text-center">
+                        <div id="qrcode"></div>
                     </div>
                 </div>
             </div>

@@ -89,3 +89,6 @@ body {
 #verso > div > div {
     height: 100%;
 }
+#qrcode {
+    margin-left: 95px;
+}

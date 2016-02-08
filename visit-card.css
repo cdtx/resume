@@ -7,7 +7,7 @@ body {
     background-image: url("green-wave.svg") !important;
     background-repeat: no-repeat !important;
     width: 85mm;
-    height: 55mm;
+    height: 54mm;
     font-family: 'Hind';
 }
 #main > div[class="row"] {
@@ -38,12 +38,13 @@ body {
 #visit-col-left {
     padding-right: 0;
     padding-left: 0;
-    height: 55mm;
+    height: 54mm;
     background-color: rgba(64, 67, 83, 0.8) !important;
     -webkit-print-color-adjust:exact;
     color: #E2E2E2 !important;
 }
 #me-name {
+    margin-top: 5%;
     font-size: 170%;
 }
 #me-title {
@@ -51,7 +52,7 @@ body {
 }
 
 #visit-col-right {
-    height: 55mm;
+    height: 54mm;
     background-color: rgba(247, 247, 257, 0.25) !important;
     -webkit-print-color-adjust:exact;
 }
@@ -80,7 +81,7 @@ body {
     background-color: #F7F7F7;
     background-repeat: no-repeat !important;
     width: 85mm;
-    height: 55mm;
+    height: 54mm;
     font-family: 'Hind';
 }
 #verso > div {

@@ -40,27 +40,45 @@
         $(document).on('ready', function() {
             // Duplicate the card so several covers one A4 page
             // Only when printing
-            if(window.matchMedia('print').matches) {
+            var mediaQueryList = window.matchMedia('print');
+            mediaQueryList.addListener(function(mql) {
+                if (mql.matches) {
+                    console.log('before printing');
+                    prepareForPrint();
+                } else {
+                    console.log('after printing');
+                    cleanAfterPrint();
+                }
+            });
+            var prepareForPrint = function() {
                 // 1. Duplicate left align and change property to dock it to right
                 var x = $('#recto > div > div > div').first().clone();
+                x.addClass('forPrint');
                 x.appendTo($('#recto > div > div'));
 
                 // 2. Duplicate the container row
                 for (i=0; i<4; i++) {
                     var x = $('#recto > div > div').first().clone();
+                    x.addClass('forPrint');
                     x.appendTo($('#recto > div'));
                 }
 
                 // Repeat for verso
                 // 1. Duplicate left align and change property to dock it to right
                 var x = $('#verso > div > div > div').first().clone();
+                x.addClass('forPrint');
                 x.appendTo($('#verso > div > div'));
 
                 // 2. Duplicate the container row
                 for (i=0; i<4; i++) {
                     var x = $('#verso > div > div').first().clone();
+                    x.addClass('forPrint');
                     x.appendTo($('#verso > div'));
                 }
+            }
+
+            var cleanAfterPrint = function() {
+                $('.forPrint').remove();
             }
             
             $('.me-name').text(data.me.first_name + ' ' + data.me.last_name);

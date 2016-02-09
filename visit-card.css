@@ -99,4 +99,7 @@ body {
     a[href]:after {
         content: none;
     }
+    .main {
+        margin: 10px;
+    }
 }

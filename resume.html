@@ -42,9 +42,14 @@
             $('#me-name').text(data.me.first_name + ' ' + data.me.last_name);
             $('#me-title').text(data.me.title);
             $('#me-description').html(data.me.description.join('<br>'));
+
+            lVal = data.me.contact.location;
+            if (lVal != undefined) {
+                $('#me-location').contents().last().replaceWith(lVal);
+            }
             lVal = data.me.contact.email;
             if (lVal != undefined) {
-                $('#me-email').last().replaceWith(lVal);
+                $('#me-email').contents().last().replaceWith(lVal);
             }
             lVal = data.me.contact.phone;
             if (lVal != undefined) {
@@ -167,6 +172,7 @@
                                 <h2 class="col-xs-11 col-md-11 col-p-11"><i class="fa fa-envelope"></i>CONTACT ME</h2>
                             </div>
                             <div id="resume-contact-me" class="text-left">
+                                <p id="me-location">Location</p>
                                 <p id="me-email">Email</p>
                                 <p id="me-phone"><i class="fa fa-mobile"></i>Phone</p>
                                 <p id="me-linkedin"><i class="fa fa-linkedin-square"></i><a href="linkedin.com">Linkedin</a></p>

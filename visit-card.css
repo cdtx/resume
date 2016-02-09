@@ -76,6 +76,9 @@ body {
 #qrcode>div>* {
     background-color: black !important;
 }
+#qrcode-link {
+    font-size: 80%;
+}
 
 /* Override the font color when printing */
 @media print {

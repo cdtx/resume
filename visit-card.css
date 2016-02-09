@@ -70,7 +70,7 @@ body {
     height: 100%;
 }
 #qrcode {
-    margin-left: 95px;
+    margin-left: 86px;
     -webkit-print-color-adjust:exact;
 }
 #qrcode>div>* {

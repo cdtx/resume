@@ -10,31 +10,10 @@ body {
     height: 54mm;
     font-family: 'Hind';
 }
-#main > div[class="row"] {
+.main > div[class="row"] {
     margin: 0;
 }
 
-/* Override the font color when printing */
-@media print {
-    * {
-        color: inherit !important;
-        -webkit-print-color-adjust: exact; 
-
-        -moz-transition: none !important;
-        -o-transition: none !important;
-        -webkit-transition: none !important;
-        transition:none!important;
-    }
-    @page {
-        margin: 0 0 0 0;
-    }
-    a:link, a:visited {
-        color: inherit;
-    }
-    a[href]:after {
-        content: none;
-    }
-}
 #visit-col-left {
     padding-right: 0;
     padding-left: 0;
@@ -78,7 +57,7 @@ body {
 #verso {
     page-break-before: always;
     /* background-image: url("green-wave.svg") !important; */
-    background-color: #F7F7F7;
+    background-color: #F7F7F7 !important;
     background-repeat: no-repeat !important;
     width: 85mm;
     height: 54mm;
@@ -92,4 +71,30 @@ body {
 }
 #qrcode {
     margin-left: 95px;
+    -webkit-print-color-adjust:exact;
+}
+#qrcode>div>* {
+    background-color: black !important;
+}
+
+/* Override the font color when printing */
+@media print {
+    * {
+        color: inherit !important;
+        -webkit-print-color-adjust: exact; 
+
+        -moz-transition: none !important;
+        -o-transition: none !important;
+        -webkit-transition: none !important;
+        transition:none!important;
+    }
+    @page {
+        margin: 0 0 0 0;
+    }
+    a:link, a:visited {
+        color: inherit;
+    }
+    a[href]:after {
+        content: none;
+    }
 }

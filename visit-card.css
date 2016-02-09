@@ -3,7 +3,7 @@ body {
     -webkit-print-color-adjust:exact;
 }
 
-#recto {
+#recto .main {
     background-image: url("green-wave.svg") !important;
     background-repeat: no-repeat !important;
     width: 85mm;
@@ -14,7 +14,7 @@ body {
     margin: 0;
 }
 
-#visit-col-left {
+.visit-col-left {
     padding-right: 0;
     padding-left: 0;
     height: 54mm;
@@ -22,40 +22,42 @@ body {
     -webkit-print-color-adjust:exact;
     color: #E2E2E2 !important;
 }
-#me-name {
+.me-name {
     margin-top: 5%;
     font-size: 170%;
 }
-#me-title {
+.me-title {
     font-size: 150%;
 }
 
-#visit-col-right {
+.visit-col-right {
     height: 54mm;
     background-color: rgba(247, 247, 257, 0.25) !important;
     -webkit-print-color-adjust:exact;
 }
 
-#me-description-short {
+.me-description-short {
     font-size: 90%;
     margin: 5%;
     padding: 0;
 }
 
-#visit-contact-me {
+.visit-contact-me {
     position: absolute;
     bottom: 0mm;
     font-size: 65%;
 }
-#visit-contact-me > p {
+.visit-contact-me > p {
     margin-bottom: 1%;
 }
-#visit-contact-me i {
+.visit-contact-me i {
     padding-right: 1%;
 }
 
 #verso {
     page-break-before: always;
+}
+#verso .main {
     /* background-image: url("green-wave.svg") !important; */
     background-color: #F7F7F7 !important;
     background-repeat: no-repeat !important;
@@ -63,20 +65,17 @@ body {
     height: 54mm;
     font-family: 'Hind';
 }
-#verso > div {
+#verso > div > div > div > div > div {
     height: 100%;
 }
-#verso > div > div {
-    height: 100%;
-}
-#qrcode {
+.qrcode {
     margin-left: 86px;
     -webkit-print-color-adjust:exact;
 }
-#qrcode>div>* {
+.qrcode>div>* {
     background-color: black !important;
 }
-#qrcode-link {
+.qrcode-link {
     font-size: 80%;
 }
 

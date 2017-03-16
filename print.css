@@ -11,6 +11,14 @@ body {
     padding: 0 0 0 0;
 }
 
+h1 {
+    margin-bottom: 0px;
+}
+h2 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
 a:link, a:visited {
     color: inherit;
 }
@@ -59,6 +67,9 @@ a[href]:after {
 }
 #resume-photo-name {
     height: 100mm;
+}
+#resume-photo-name img {
+    margin-top: 30px;
 }
 #resume-my-infos {
     height: 197mm;

@@ -9,7 +9,7 @@ var data = {
             "I'm a various technologies engineer, specialized in embedded software.",
             "I'm passionate, curious, and with an open (source) mind.",
             "I have developed a wide range of skills in hardware digital design all the way to web stuffs from my professional and personal experiences.",
-            "31 years old, I am married, with a child.",
+            "32 years old, I am married, with a child.",
             "Finally I'm an intensive sportsman, essentially cyclism, that's big part of my free time",
         ],
         "contact" : {
@@ -22,12 +22,21 @@ var data = {
     },
     "experiences": [
         {
+            "title": "Startup creation (2016-now)",
+            "description": [
+                "The soon launched PORTEYE increases the level of confidence in the used car business. This by realising video based diagnostics by professional third parties",
+                "    - Car sellers can valuate their offer themselves by doing the diagnostic",
+                "    - Car seekers can ask for a diagnostic to be done.",
+                "The final product is the diagnostic's video book that the link can be spread over the popular search platforms",
+            ],
+            "keywords": [
+                "Django, REST, AWS, Backbone, jQuery, Bootstrap, HTML, CSS",
+            ],
+        },
+        {
             "title": "Smart Card secured embedded software (2012-2016)",
             "description": [
                 "Firmware developer in the team in charge of Secure Element technologies.",
-                "    - GlobalPlatform for cards specifications technical referent",
-                "    - Involved in architecture definition",
-                "    - Source code workflow and compilation-chain definition",
             ],
             "keywords": [
                 "GlobalPlatform, Java Card, NFC, ISO 7816, C, Arm, Avr, Cryptography basics, Subversion, SCons",
@@ -44,11 +53,7 @@ var data = {
             "title": "Python expert (2012-2016)",
             "description": [
                 "Aware of productivity and simplicity",
-                "Created and maintained:",
-                "    - Full APDU framework for smart Cards communications",
-                "    - Full python test engine",
-                "    - Driven trainee on \"Using python to execute GlobalPlatform compliance test plans\"",
-                "    - Managed the voluntary contributions.",
+                "Created and maintained a full APDU framework for smart Cards communications",
             ],
             "keywords": [
                 "Python, PyScard, integration & management",
@@ -77,10 +82,8 @@ var data = {
         {
             "title": "Side projects",
             "description" : [
-                "- Microchip PIC various experiences (sensors, standard buses, etc.)",
+                "- DIY objects various experiences (PIC, Raspberry pi, ESP8266, sensors, communications, etc.)",
                 "- Embedded Linux with buildroot",
-                "- Personal and professional web sites",
-                "- Personal custom markdown language framework (<a href=\"https://github.com/cdtx/mino\">github.com/cdtx/mino</a>)",
             ],
         }
     ],

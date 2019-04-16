@@ -137,7 +137,14 @@ var data = {
         },
         "experiences": [
             {
-                "title": "Création de startup - PORTEYE (depuis 2016)",
+                "title": "Ingénieur indépendant (depuis 2016)",
+                "description" : [
+                    "Expert Python",
+                    "Scraping web",
+                ],
+            },
+            {
+                "title": "Création de startup - porteye.fr (2016-2018)",
                 "description": [
                     "Service web d'expertise de voitures d'occasion",
                     "Co-inventeur du concept",
@@ -151,13 +158,7 @@ var data = {
                 }
             },
             {
-                "title": "Développeur indépendant (depuis 2016)",
-                "description" : [
-                    "Collecte et analyse de données eBay pour un client commerçant",
-                ],
-            },
-            {
-                "title": "Firmware sécurisé pour carte à puce (2012-2016)",
+                "title": "Ingénieur en logiciel embarqué sécurisé (2012-2016)",
                 "description": [
                     "Développeur de logiciel embarqué & Expert python",
                     "    - Réferent sur les spécifications GlobalPlatform",
@@ -176,10 +177,13 @@ var data = {
                 }
             },
             {
-                "title": "Ingénieur logiciel (2008-2012)",
+                "title": "Ingénieur en logiciel embarqué (2008-2012)",
                 "description": [
                     "Développement d'une nouvelle génération de pupitres conducteur",
                     "Déploiement d'un prototype d'outil de maintenance à distance d'une flotte de trains",
+                ],
+                "distinctions": [
+                    "Trophée interne du projet le plus innovant de l'année 2015"
                 ],
                 "keywords" : [
                     "C, QNX, photon, ClearCase"

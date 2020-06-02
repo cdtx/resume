@@ -118,14 +118,15 @@ var data = {
             "last_name": "DUTRIEUX",
             "first_name": "Cyril",
             "avatar": "avatar.jpg",
-            "title": "Ingénieur en informatique",
+            "title": "Ingénieur systèmes embarqués",
             "description_short" : ["Ingénieur senior en développement informatique, spécialisé en logiciel embarqué, sécurité numérique, Python et développement web"],
             "description": [
-                "Je suis ingénieur senior, spécialisé dans le logiciel embarqué.",
+                "Diplomé de l'ENSEA, spécialisé dans le logiciel embarqué et l'électronique numérique.",
                 "Passionné, curieux et ouvert d'esprit.",
                 "En 10 ans j'ai cultivé des compétences allant du monde de l'électronique à celui du web.",
-                "34 ans, marié, 2 enfants.",
-                "Je suis passionné de cyclisme, que je pratique en compétition.",
+                "Je suis par nature en veille technologique permanente.",
+                "36 ans, marié, 2 enfants.",
+                "Je pratique le cyclisme et la course à pied en compétition",
             ],
             "contact" : {
                 "location": "Saint-Vulbas (01)",
@@ -137,7 +138,7 @@ var data = {
         },
         "experiences": [
             {
-                "title": "Ingénieur indépendant (depuis 2016)",
+                "title": "Ingénieur logiciel - freelance (depuis 2016)",
                 "description" : [
                     "Expert Python",
                     "Scraping web",
@@ -148,7 +149,7 @@ var data = {
                 "description": [
                     "Service web d'expertise de voitures d'occasion",
                     "Co-inventeur du concept",
-                    "Responsable du développement de la plateforme",
+                    "En charge du développement de la plateforme",
                 ],
                 "keywords": [
                     "Python, Django, HTML, Sass, Javascript",
@@ -186,7 +187,7 @@ var data = {
                     "Trophée interne du projet le plus innovant de l'année 2015"
                 ],
                 "keywords" : [
-                    "C, QNX, photon, ClearCase"
+                    "C, QNX, Photon, ClearCase"
                 ],
                 "company": {
                     "name": "Alstom transport",
@@ -198,7 +199,7 @@ var data = {
             {
                 "title": "Ingénieur en électronique et systèmes embarqués (2008)",
                 "description": [
-                    "Double diplome en parallèle d'un master recherche",
+                    "En double diplome avec un master recherche",
                     "    - Systèmes d'exploitation temps réel",
                     "    - Systèmes numériques (FPGA, Verilog)",
                     "    - Electronique en tout genre"

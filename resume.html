@@ -8,9 +8,7 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css">
-    <link rel="stylesheet" href="col-height.css">
     <link rel="stylesheet" href="bootstrap-print.css" media="print">
-    <!-- <link rel="stylesheet" href="style.css"> -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,7 +32,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
     <!-- Import data -->
-    <script src="data.js"></script>
+    <script src="data_long.js"></script>
 
     <script>
         var getUrlParameter = function getUrlParameter(sParam) {
@@ -200,137 +198,135 @@
 
     <div id="main" class="container-fluid" style="padding-left:0; padding-right:0">
         <div class="row">
-            <div class="row-height">
-                <div id="resume-col-left" class="col-xs-12 col-md-4 col-md-height col-md-top col-p-4">
-                    <!-- left column content -->
+            <div id="resume-col-left" class="col-xs-11 col-md-4 col-md-top col-p-4">
+                <!-- left column content -->
 
-                    <div id="resume-photo-name">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <div class="    col-xs-offset-2 col-xs-8
-                                                col-md-offset-3 col-p-offset-3 col-md-6 col-p-6">
-                                    <img src="build.png" id="me-avatar" class="img-responsive center-block"></img>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <p id="me-name" class="text-center col-xs-12 col-md-12 col-p-12">Name</p>
-                            </div>
-                            <p id="me-title" class="text-center">Title</p>
-                        </div>
-                    </div>
-
-                    <div id="resume-my-infos">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <h2 class="tr-about-me col-xs-11 col-md-11 col-p-11"><i class="fa fa-check"></i>ABOUT ME</h2>
-                            </div>
-                            <div class="row">
-                                <p id="me-description" class="text-justify col-xs-12 col-md-12 col-p-12">Description</p>
-                            </div>
-                            <div class="row">
-                                <h2 class="tr-contact-me col-xs-11 col-md-11 col-p-11"><i class="fa fa-envelope"></i>CONTACT ME</h2>
-                            </div>
-                            <div id="resume-contact-me" class="text-left">
-                                <p id="me-location">Location</p>
-                                <p id="me-email">Email</p>
-                                <p id="me-phone"><i class="fa fa-mobile"></i>Phone</p>
-                                <p id="me-linkedin"><i class="fa fa-linkedin-square"></i><a href="linkedin.com">Linkedin</a></p>
-                                <p id="me-github"><i class="fa fa-github"></i><a href="github.com">Github</a></p>
+                <div id="resume-photo-name">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="    col-xs-offset-2 col-xs-8
+                                                 col-md-offset-3 col-p-offset-3 col-md-6 col-p-6">
+                                <img src="build.png" id="me-avatar" class="img-responsive center-block"></img>
                             </div>
                         </div>
+                        <div class="row">
+                            <p id="me-name" class="text-center col-xs-12 col-md-12 col-p-12">Name</p>
+                        </div>
+                        <p id="me-title" class="text-center">Title</p>
                     </div>
-
                 </div>
-                <div id="resume-col-right" class="col-xs-12 col-md-8 col-md-height col-md-top col-p-8" >
-                    <!-- right column content -->
 
-                    <!-- Experiences -->
-                    <div id="resume-experiences">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <h1 class="tr-experience col-xs-11 col-md-11 col-p-11"><i class="fa fa-tasks"></i>WORK EXPERIENCE</h1>
-                            </div>
-                            <div class="resume-experience">
-                                <div class="row">
-                                    <h2 class="text-left resume-experience-title col-xs-offset-2 col-xs-8 col-md-offset-2 col-p-offset-2 col-md-8 col-p-8">Job name</h2>
-                                </div>
-                                <div class="row">
-                                    <div class="resume-experience-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-2 col-p-2">
-                                        <img src="build.png" class="img-responsive center-block"></img>
-                                        <p class="text-center">Company name</p>
-                                    </div>
-                                    <div class="clearfix visible-xs-block visible-sm-block"></div>
-                                    <div class="resume-experience-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-10 col-p-10">
-                                        <p class="text-justify">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>                
+                <div id="resume-my-infos">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <h2 class="tr-about-me col-xs-11 col-md-11 col-p-11"><i class="fa fa-check"></i>ABOUT ME</h2>
+                        </div>
+                        <div class="row">
+                            <p id="me-description" class="text-justify col-xs-12 col-md-12 col-p-12">Description</p>
+                        </div>
+                        <div class="row">
+                            <h2 class="tr-contact-me col-xs-11 col-md-11 col-p-11"><i class="fa fa-envelope"></i>CONTACT ME</h2>
+                        </div>
+                        <div id="resume-contact-me" class="text-left">
+                            <p id="me-location">Location</p>
+                            <p id="me-email">Email</p>
+                            <p id="me-phone"><i class="fa fa-mobile"></i>Phone</p>
+                            <p id="me-linkedin"><i class="fa fa-linkedin-square"></i><a href="linkedin.com">Linkedin</a></p>
+                            <p id="me-github"><i class="fa fa-github"></i><a href="github.com">Github</a></p>
                         </div>
                     </div>
+                </div>
 
-                    <!-- Education -->
-                    <div id="resume-educations">
-                        <div class="container-fluid">
-                            <div class="row">
-                                <h1 class="tr-education col-xs-11 col-md-11 col-p-11"><i class="fa fa-graduation-cap"></i>EDUCATION</h1>
-                            </div>
-                            <div class="resume-education">
-                                <div class="row">
-                                    <h2 class="text-left resume-education-title col-xs-offset-2 col-xs-8 col-md-offset-2 col-p-offset-2 col-md-10 col-p-10">Job 1</h2>
-                                </div>
-                                <div class="row">
-                                    <div class="resume-education-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-2 col-p-2">
-                                        <img src="build.png" class="img-responsive center-block"></img>
-                                        <p class="text-center">Company name</p>
-                                    </div>
-                                    <div class="clearfix visible-xs-block visible-sm-block"></div>
-                                    <div class="resume-education-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-10 col-p-10">
-                                        <p class="text-justify">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>                
+            </div>
+            <div id="resume-col-right" class="col-xs-12 col-md-8 col-md-top col-p-8" >
+                <!-- right column content -->
+
+                <!-- Experiences -->
+                <div id="resume-experiences">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <h1 class="tr-experience col-xs-11 col-md-11 col-p-11"><i class="fa fa-tasks"></i>WORK EXPERIENCE</h1>
                         </div>
+                        <div class="resume-experience">
+                            <div class="row">
+                                <h2 class="text-left resume-experience-title col-xs-offset-2 col-xs-8 col-md-offset-2 col-p-offset-2 col-md-8 col-p-8">Job name</h2>
+                            </div>
+                            <div class="row">
+                                <div class="resume-experience-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-2 col-p-2">
+                                    <img src="build.png" class="img-responsive center-block"></img>
+                                    <p class="text-center">Company name</p>
+                                </div>
+                                <div class="clearfix visible-xs-block visible-sm-block"></div>
+                                <div class="resume-experience-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-10 col-p-10">
+                                    <p class="text-justify">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>                
                     </div>
+                </div>
 
-                    <!-- Languages -->
-                    <div id="resume-education">
-                        <div class="container-fluid">
+                <!-- Education -->
+                <div id="resume-educations">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <h1 class="tr-education col-xs-11 col-md-11 col-p-11"><i class="fa fa-graduation-cap"></i>EDUCATION</h1>
+                        </div>
+                        <div class="resume-education">
                             <div class="row">
-                                <h1 class="tr-language col-xs-11 col-md-11 col-p-11"><i class="fa fa-globe"></i>LANGUAGES</h1>
+                                <h2 class="text-left resume-education-title col-xs-offset-2 col-xs-8 col-md-offset-2 col-p-offset-2 col-md-10 col-p-10">Job 1</h2>
                             </div>
                             <div class="row">
-                                <div class="resume-language-cap col-xs-offset-3 col-xs-2 col-md-offset-2 col-p-offset-2 col-md-1 col-p-1">
-                                   <img class="img-responsive" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/1.0.0/flags/4x3/fr.svg"></img>
-                               </div>
-                                <div class="resume-language-cap col-xs-offset-2 col-xs-2 col-md-offset-2 col-p-offset-2 col-md-1 col-p-1">
-                                   <img class="img-responsive" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/1.0.0/flags/4x3/gb.svg"></img>
+                                <div class="resume-education-logo col-xs-offset-4 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-2 col-p-2">
+                                    <img src="build.png" class="img-responsive center-block"></img>
+                                    <p class="text-center">Company name</p>
+                                </div>
+                                <div class="clearfix visible-xs-block visible-sm-block"></div>
+                                <div class="resume-education-description col-xs-offset-1 col-xs-10 col-md-offset-0 col-p-offset-0 col-md-10 col-p-10">
+                                    <p class="text-justify">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec luctus turpis sit amet est consectetur aliquam. Suspendisse luctus condimentum turpis, sit amet porttitor nunc commodo ut. Etiam sodales lobortis tellus eu iaculis. Nunc ac lacus ut neque auctor posuere. Aenean at lorem eu quam volutpat facilisis. Sed nunc turpis, dictum.  
+                                    </p>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="resume-language-cap col-xs-offset-2 col-xs-4 col-md-offset-1 col-p-offset-1 col-md-3 col-p-3">
-                                   <p class="tr-language-fr text-center">French</p>
-                                   <p class="text-center">
-                                       <i class="fa fa-star"></i>
-                                       <i class="fa fa-star"></i>
-                                       <i class="fa fa-star"></i>
-                                       <i class="fa fa-star"></i>
-                                       <i class="fa fa-star"></i>
-                                    </p>
-                                </div>
-                                <div class="resume-language-cap col-xs-offset-0 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-3 col-p-3">
-                                   <p class="tr-language-en text-center">English</p>
-                                   <p class="text-center">
-                                       <i class="fa fa-star"></i>
-                                       <i class="fa fa-star"></i>
-                                       <i class="fa fa-star"></i>
-                                       <i class="fa fa-star-o"></i>
-                                       <i class="fa fa-star-o"></i>
-                                    </p>
-                                </div>
+                        </div>                
+                    </div>
+                </div>
+
+                <!-- Languages -->
+                <div id="resume-education">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <h1 class="tr-language col-xs-11 col-md-11 col-p-11"><i class="fa fa-globe"></i>LANGUAGES</h1>
+                        </div>
+                        <div class="row">
+                            <div class="resume-language-cap col-xs-offset-3 col-xs-2 col-md-offset-2 col-p-offset-2 col-md-1 col-p-1">
+                                <img class="img-responsive" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/1.0.0/flags/4x3/fr.svg"></img>
+                            </div>
+                            <div class="resume-language-cap col-xs-offset-2 col-xs-2 col-md-offset-2 col-p-offset-2 col-md-1 col-p-1">
+                                <img class="img-responsive" src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/1.0.0/flags/4x3/gb.svg"></img>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="resume-language-cap col-xs-offset-2 col-xs-4 col-md-offset-1 col-p-offset-1 col-md-3 col-p-3">
+                                <p class="tr-language-fr text-center">French</p>
+                                <p class="text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                </p>
+                            </div>
+                            <div class="resume-language-cap col-xs-offset-0 col-xs-4 col-md-offset-0 col-p-offset-0 col-md-3 col-p-3">
+                                <p class="tr-language-en text-center">English</p>
+                                <p class="text-center">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star-o"></i>
+                                </p>
                             </div>
                         </div>
                     </div>

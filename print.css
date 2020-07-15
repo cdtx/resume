@@ -6,7 +6,6 @@
 }
 body {
     width: 210mm;
-    height: 297mm;
     margin: 0 0 0 0;
     padding: 0 0 0 0;
 }
@@ -55,13 +54,6 @@ a[href]:after {
     position: initial;
     background-color: white !important;
     display: initial;
-    height: 297mm;
-}
-#resume-photo-name {
-    height: 100mm;
-}
-#resume-my-infos {
-    height: 197mm;
 }
 
 #me-name {
@@ -93,19 +85,12 @@ a[href]:after {
 #resume-col-left {
     position: initial;
     display: initial;
-    /* height: 302.3mm; */
+    height: 891mm; /* 297*3 */
 }
 #resume-col-right {
     position: initial;
     background-color: white !important;
     display: initial;
-    height: 297mm;
-}
-#resume-photo-name {
-    height: 100mm;
-}
-#resume-my-infos {
-    height: 197mm;
 }
 
 #me-name {
@@ -119,6 +104,7 @@ a[href]:after {
     padding: 0;
 }
 .resume-experience, .resume-education {
+    page-break-inside: avoid;
     font-size: 89%;
 }
 

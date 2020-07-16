@@ -57,6 +57,9 @@
             $('#me-title').text(data.me.title);
             $('#me-description').html(data.me.description.join('<br>'));
 
+            $('#me-mobility').text(data.me.mobility);
+            $('#me-tjm').text(data.me.tjm);
+
             trs = {
                 '.tr-about-me' : {
                     'fr': 'A propos',
@@ -65,6 +68,18 @@
                 '.tr-contact-me' : {
                     'fr': 'Contact',
                     'en': 'Contact me',
+                },
+                '.tr-mobility' : {
+                    'fr': 'Mobilité',
+                    'en': 'Mobility',
+                },
+                '.tr-tjm' : {
+                    'fr': 'TJM',
+                    'en': '',
+                },
+                '.tr-skills' : {
+                    'fr': 'Compétences',
+                    'en': 'Skills',
                 },
                 '.tr-experience' : {
                     'fr': 'Expériences',
@@ -119,6 +134,25 @@
             else {
                 $('#me-github').remove();
             }
+
+            // Skills
+            $.each(data.skills, function(index, value) {
+                var skill = $('.resume-skills-category').first().clone();
+                skill.find('.resume-skills-category-title').text(value.title);
+
+                $.each(value.skills, function(index2, value2) {
+                    var label = skill.find('.resume-skill').first().clone()
+                    label.text(value2)
+                    label.appendTo(skill.find('.resume-skills-category-description'));
+                    skill.find('.resume-skills-category-description').append(" ");
+                })
+                // The first element was actually a template, remove it
+                skill.find('.resume-skill').first().remove();
+
+                skill.appendTo($('#resume-skills>div').first());
+            })
+            // The first element was actually a template, remove it
+            $('.resume-skills-category').first().remove();
 
             // Experiences
             $.each(data.experiences, function(index, value) {
@@ -224,6 +258,21 @@
                         <div class="row">
                             <p id="me-description" class="text-justify col-xs-12 col-md-12 col-p-12">Description</p>
                         </div>
+
+                        <div class="row">
+                            <h2 class="tr-mobility col-xs-11 col-md-11 col-p-11"><i class="fa fa-check"></i>MOBILITY</h2>
+                        </div>
+                        <div class="row">
+                            <p id="me-mobility" class="text-justify col-xs-12 col-md-12 col-p-12">Mobility</p>
+                        </div>
+
+                        <div class="row">
+                            <h2 class="tr-tjm col-xs-11 col-md-11 col-p-11"><i class="fa fa-check"></i>TJM</h2>
+                        </div>
+                        <div class="row">
+                            <p id="me-tjm" class="text-justify col-xs-12 col-md-12 col-p-12">TJM</p>
+                        </div>
+
                         <div class="row">
                             <h2 class="tr-contact-me col-xs-11 col-md-11 col-p-11"><i class="fa fa-envelope"></i>CONTACT ME</h2>
                         </div>
@@ -240,6 +289,25 @@
             </div>
             <div id="resume-col-right" class="col-xs-12 col-md-8 col-md-top col-p-8" >
                 <!-- right column content -->
+
+                <!-- Skills -->
+                <div id="resume-skills">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <h1 class="tr-skills col-xs-11 col-md-11 col-p-11"><i class="fa fa-tasks"></i>SKILLS</h1>
+                        </div>
+                        <div class="resume-skills-category">
+                            <div class="row">
+                                <h2 class="text-left resume-skills-category-title col-xs-offset-2 col-xs-8 col-md-offset-2 col-p-offset-2 col-md-8 col-p-8">category</h2>
+                            </div>
+                            <div class="row">
+                                <div class="resume-skills-category-description col-xs-offset-1 col-xs-10 col-md-offset-2 col-p-offset-2 col-md-10 col-p-10">
+                                    <span class="resume-skill label label-primary">skill</span>
+                                </div>
+                            </div>
+                        </div>                
+                    </div>
+                </div>
 
                 <!-- Experiences -->
                 <div id="resume-experiences">

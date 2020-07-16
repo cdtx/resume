@@ -4,7 +4,7 @@ var data = {
             "last_name": "DUTRIEUX",
             "first_name": "Cyril",
             "avatar": "avatar.jpg",
-            "title": "Ingénieur systèmes embarqués",
+            "title": "Développeur logiciel - Freelance",
             "description_short" : ["Ingénieur senior en développement informatique, spécialisé en logiciel embarqué, sécurité numérique, Python et développement web"],
             "description": [
                 "Diplomé de l'ENSEA, spécialisé dans le logiciel embarqué et l'électronique numérique.",
@@ -14,6 +14,8 @@ var data = {
                 "36 ans, marié, 2 enfants.",
                 "Je pratique le cyclisme et la course à pied en compétition",
             ],
+            "mobility" : "Remote privilégié. Déplacements ponctuels possibles sur Lyon ou Grenoble",
+            "tjm" : "400€ HT",
             "contact" : {
                 "location": "Saint-Vulbas (01)",
                 "phone": "+336 81 21 92 48",
@@ -22,6 +24,14 @@ var data = {
                 "github": "https://github.com/cdtx"
             }
         },
+        "skills" : [
+            {"title": "Systèmes embarqués", "skills": ["C/C++", "PIC", "ESP8266", "ESP32", "QNX", "Linux", "Buildroot", "Raspberry Pi", "FreeRTOS", "MicroPython", "I²C", "SPI", "CAN", "USB", "TCP/IP", "Wifi", "MQTT", "VHDL", "Verilog"]},
+            {"title": "Développement PC", "skills": ["Linux", "C/C++", "Python", "Qt", "PyQt", "OOP", "MVC"]},
+            {"title": "Web", "skills": ["Python", "Django", "REST API", "HTML", "Css/Less/Sass", "Javascript", "Vue.js", "Scrapy", "Docker"]},
+            {"title": "Environnement de travail", "skills": ["Linux", "Bash", "Vim", "TMux", "makefile", "CMake", "Git", "Subversion", "Jira", "Jenkins"]},
+            {"title": "Autres", "skills": ["Design 3D", "Impression 3D"]},
+            {"title": "", "skills": [""]},
+        ],
         "experiences": [
             {
                 "title": "Ingénieur logiciel - freelance (depuis 2016)",
@@ -52,10 +62,11 @@ var data = {
                 }
             },
             {
-                "title": "Développeur logiciel embarqué sécurisé (2012-2016)",
+                "title": "Développeur logiciel embarqué sécurisé (2014-2016)",
                 "description": [
                     "Travail sur le système d'exploitation propriétaire Java Card pour microcontroleurs sécurisés, pour le domaine bancaire et la téléphonie.",
                     "- Développement et architecture logiciel embarqué",
+                    "- Contraintes sécuritaires",
                     "- Formé et réferent sur les spécifications GlobalPlatform"
                 ],
                 "keywords": [
@@ -67,7 +78,7 @@ var data = {
                 }
             },
             {
-                "title": "Expert Python (2012-2016)",
+                "title": "Expert Python (2014-2016)",
                 "description": [
                     "Definition, architecture, developpement and maintient d'un framework de dialogue PC / carte à puce.",
                     "J'ai démarré ce projet de ma propre initiative, puis intégré un stagiaire, et géré la collaboration de certains membre de l'équipe R&D."
@@ -81,7 +92,7 @@ var data = {
                 }
             },
             {
-                "title": "Ingénieur outils",
+                "title": "Ingénieur outils (2012 - 2014)",
                 "description": [
                     "La société s'équipe d'une plateforme d'émulation hardware sur FPGA.",
                     "J'ai eu à écrire et maintenir un logiciel d'accès à cette plateforme. (accès mémoire, breakpoints, etc.)",

@@ -16,12 +16,19 @@ body {
     background-color: #DBDBDB !important;
     -webkit-print-color-adjust:exact;
 }
+h2 {
+    font-size: 20px;
+}
 h1>i, h2>i {
     padding-right: 2%;
 }
 
 a:link, a:visited {
     color: inherit;
+}
+
+.label {
+    padding: 0 8px;
 }
 
 /* Avoid the horizontal scrollbar */
@@ -80,6 +87,8 @@ a:link, a:visited {
 
 
 #resume-my-infos {
+    line-height: 16px;
+    padding-top: 15px;
     padding-left: 15px;
     padding-right: 15px;
     background-color: #404353 !important;
@@ -90,7 +99,7 @@ a:link, a:visited {
     padding-right: 1%;
 }
 
-.resume-experience, .resume-education{
+.resume-experience, .resume-education, .resume-skills-category {
     padding-left: 15px;
     padding-right: 15px;
     font-size: 110%;
@@ -109,17 +118,21 @@ a:link, a:visited {
         margin-bottom: 2%;
     }
 }
-.resume-experience-title, .resume-education-title {
+.resume-experience-title, .resume-education-title, .resume-skills-category-title {
     font-size: 150%;
 }
 @media screen and (max-width: 992px) {
-      .resume-experience-title.text-left, .resume-education-title.text-left {
+      .resume-experience-title.text-left, .resume-education-title.text-left, .resume-skills-category-title.text-left {
           text-align: center;
        } 
     }
 
-.resume-experience-description, .resume-education-description {
+.resume-experience-description, .resume-education-description  {
 
+}
+.resume-skills-category-description {
+    display: block !important;
+    line-height: 1.6;
 }
 
 .resume-language-cap {

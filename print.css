@@ -103,7 +103,7 @@ a[href]:after {
 .resume-experience-logo img, .resume-education-logo img {
     padding: 0;
 }
-.resume-experience, .resume-education {
+.resume-experience, .resume-education, .resume-skills {
     page-break-inside: avoid;
     font-size: 89%;
 }

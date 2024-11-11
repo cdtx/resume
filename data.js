@@ -3,18 +3,18 @@ var data = {
         "me": {
             "last_name": "DUTRIEUX",
             "first_name": "Cyril",
-            "avatar": "avatar.jpg",
-            "title": "Software engineer",
-            "description_short" : ["Various technologies engineer, specialized in embedded software, software security for mobile payment and IoT."],
+            "avatar": "avatar_2024.jpg",
+            "title": "Software Architect",
+            "description_short" : ["Various technologies engineer, specialized in embedded software, architecture, software security for mobile payment and IoT."],
             "description": [
                 "I'm a various technologies engineer, specialized in embedded software.",
                 "I'm passionate, curious, and with an open (source) mind.",
                 "I have developed a wide range of skills in hardware digital design all the way to web stuffs from my professional and personal experiences.",
-                "34 years old, I am married, with 2 children.",
+                "40 years old, 2 children.",
                 "Finally I'm an intensive sportsman, essentially cyclism, that's big part of my free time",
             ],
             "contact" : {
-                "location": "Living in Lyon",
+                "location": "Lagnieu (01)",
                 "phone": "+336 81 21 92 48",
                 "email": "cyril.dutrieux@gmail.com",
                 "linkedin": "https://fr.linkedin.com/in/cyrildutrieux",
@@ -23,9 +23,33 @@ var data = {
         },
         "experiences": [
             {
+                "title": "NetBox Software Architect (2021-)",
+                "description" : [
+                    "- Maintainance and evolutions for the train-to-ground routing solution",
+                    "- Cybersecurity building blocks for IEC-62443-SL2",
+                    "- Secured web server solution",
+                    "- Definition and maintenance of a the software testing environment",
+                    "- Interships"
+                ],
+                "keywords": [
+                    "Agile, Git, Gitlab, Linux, Docker, Code reviews"
+                ],
+                "company": {
+                    "name": "Alstom transport",
+                    "logo": "alstom.jpg"
+                },
+            },
+            {
+                "title": "Freelance software developper (2017-2020)",
+                "description" : [
+                    "- Web scraping for marketing teams",
+                    "- Website full design & implementation (Django)"
+                ]
+            },
+            {
                 "title": "Smart Card secured embedded software (2012-2016)",
                 "description": [
-                    "Firmware developer in the team in charge of Secure Element technologies.",
+                    "Firmware developer for Secure Element technologies.",
                     "    - GlobalPlatform for cards specifications technical referent",
                     "    - Involved in architecture definition",
                     "    - Source code workflow and compilation-chain definition",
@@ -62,10 +86,11 @@ var data = {
             {
                 "title": "Embedded software (2008-2012)",
                 "description": [
-                    "Developer on a new generation of desk driver display",
+                    "Member of the first DMI-DeskManager releases",
+                    "Remote maintenance: ComBox integration for train clients"
                 ],
                 "keywords" : [
-                    "C, QNX, photon, ClearCase"
+                    "C, Perl, QNX, photon, ClearCase"
                 ],
                 "distinctions": [
                     "Worldwide internal award of the most innovative project of the year 2015"
@@ -78,11 +103,10 @@ var data = {
             {
                 "title": "Side projects",
                 "description" : [
+                    "- Home automation skills (Espressif chips, HomeAssistant, MQTT)",
                     "- Microchip PIC various experiences (sensors, standard buses, etc.)",
-                    "- Embedded Linux with buildroot",
-                    "- Personal and professional web sites",
-                    "- Personal custom markdown language framework (<a href=\"https://github.com/cdtx/mino\">github.com/cdtx/mino</a>)",
-                ],
+                    "- Embedded Linux with buildroot"
+                ]
             }
         ],
         "education": [

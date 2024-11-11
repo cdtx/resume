@@ -32,7 +32,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.js"></script>
     <!-- Import data -->
-    <script src="data_long.js"></script>
+    <script src="data.js"></script>
 
     <script>
         var getUrlParameter = function getUrlParameter(sParam) {
@@ -136,23 +136,28 @@
             }
 
             // Skills
-            $.each(data.skills, function(index, value) {
-                var skill = $('.resume-skills-category').first().clone();
-                skill.find('.resume-skills-category-title').text(value.title);
+            if(data.skills == undefined) {
+                $('#resume-skills').remove()
+            }
+            else {
+                $.each(data.skills, function(index, value) {
+                    var skill = $('.resume-skills-category').first().clone();
+                    skill.find('.resume-skills-category-title').text(value.title);
 
-                $.each(value.skills, function(index2, value2) {
-                    var label = skill.find('.resume-skill').first().clone()
-                    label.text(value2)
-                    label.appendTo(skill.find('.resume-skills-category-description'));
-                    skill.find('.resume-skills-category-description').append(" ");
+                    $.each(value.skills, function(index2, value2) {
+                        var label = skill.find('.resume-skill').first().clone()
+                        label.text(value2)
+                        label.appendTo(skill.find('.resume-skills-category-description'));
+                        skill.find('.resume-skills-category-description').append(" ");
+                    })
+                    // The first element was actually a template, remove it
+                    skill.find('.resume-skill').first().remove();
+
+                    skill.appendTo($('#resume-skills>div').first());
                 })
                 // The first element was actually a template, remove it
-                skill.find('.resume-skill').first().remove();
-
-                skill.appendTo($('#resume-skills>div').first());
-            })
-            // The first element was actually a template, remove it
-            $('.resume-skills-category').first().remove();
+                $('.resume-skills-category').first().remove();
+            }
 
             // Experiences
             $.each(data.experiences, function(index, value) {
@@ -259,6 +264,7 @@
                             <p id="me-description" class="text-justify col-xs-12 col-md-12 col-p-12">Description</p>
                         </div>
 
+                        <!--
                         <div class="row">
                             <h2 class="tr-mobility col-xs-11 col-md-11 col-p-11"><i class="fa fa-check"></i>MOBILITY</h2>
                         </div>
@@ -272,6 +278,7 @@
                         <div class="row">
                             <p id="me-tjm" class="text-justify col-xs-12 col-md-12 col-p-12">TJM</p>
                         </div>
+                        -->
 
                         <div class="row">
                             <h2 class="tr-contact-me col-xs-11 col-md-11 col-p-11"><i class="fa fa-envelope"></i>CONTACT ME</h2>
@@ -392,7 +399,7 @@
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
                                 <i class="fa fa-star"></i>
-                                <i class="fa fa-star-o"></i>
+                                <i class="fa fa-star"></i>
                                 <i class="fa fa-star-o"></i>
                                 </p>
                             </div>
